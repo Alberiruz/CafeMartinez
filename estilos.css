@@ -63,7 +63,7 @@ body {
 }
 
 .contenedor .encabezado {
-    background: rgb(170, 115, 233);
+    background: rgb(174, 155, 196);
     color: #fff;
     grid-area: encabezado;
     font-size: 1rem;

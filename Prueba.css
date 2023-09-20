@@ -1,0 +1,236 @@
+element.style {}
+
+
+.vtex-flex-layout-0-x-flexRowContent--menu-row-footer2 {
+    padding: 70px 15px 50px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.justify-start {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.items-stretch {
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+.flex-none {
+    -webkit-box-flex: 0;
+    flex: none;
+}
+
+.mb0,
+.nb0 {
+    margin-bottom: 0;
+}
+
+.pb0 {
+    padding-bottom: 0;
+}
+
+.mt0,
+.nt0 {
+    margin-top: 0;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.justify-start {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.items-stretch {
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.pb0 {
+    padding-bottom: 0;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.border-box,
+a,
+article,
+aside,
+blockquote,
+body,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=text],
+input[type=url],
+legend,
+li,
+main,
+nav,
+ol,
+p,
+pre,
+section,
+table,
+td,
+textarea,
+th,
+tr,
+ul {
+    box-sizing: border-box;
+}
+
+.border-box,
+a,
+aside,
+body,
+div,
+html,
+input[type=text],
+li,
+nav,
+section,
+ul {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.flex-column,
+.flex-row {
+    -webkit-box-direction: normal;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.flex-column,
+.flex-row {
+    -webkit-box-direction: normal;
+}
+
+user agent stylesheet ul {
+    list-style-type: disc;
+}
+
+
+
+
+.t-body,
+body {
+    font-size: 1rem;
+}
+
+.t-body,
+.t-heading-6,
+body {
+    font-family: MuseoSans;
+    font-weight: 100;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.sans-serif,
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.t-body,
+body {
+    font-size: 1rem;
+}
+
+.t-body,
+body {
+    font-family: MuseoSans;
+    font-weight: 100;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+body,
+button,
+input {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+body,
+button,
+input {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
