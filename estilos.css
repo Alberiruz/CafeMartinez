@@ -486,3 +486,1138 @@ body {
         /* Tamaño de fuente más pequeño */
     }
 }
+<style id="critical" type="text/css">
+@charset "UTF-8";
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,
+input {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+
+
+button {
+    text-transform: none
+}
+
+
+
+
+[type=button]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+
+[type=button]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.bg-base {
+    background-color: #fff
+}
+
+.bg-emphasis {
+    background-color: #434343
+}
+
+.bg-muted-3 {
+    background-color: #cacbcc
+}
+
+.bg-transparent {
+    background-color: transparent
+}
+
+.ba {
+    border-style: solid;
+    border-width: 1px
+}
+
+.bn {
+    border-style: none;
+    border-width: 0
+}
+
+.b--muted-4 {
+    border-color: #e3e4e6
+}
+
+.b--transparent {
+    border-color: transparent
+}
+
+.br2 {
+    border-radius: .25rem
+}
+
+.br-100 {
+    border-radius: 100%
+}
+
+.br--right {
+    border-bottom-left-radius: 0
+}
+
+.br--right {
+    border-top-left-radius: 0
+}
+
+.br--left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.b--solid {
+    border-style: solid
+}
+
+.bw0 {
+    border-width: 0
+}
+
+.bw1 {
+    border-width: .125rem
+}
+
+.br-0 {
+    border-right-width: 0
+}
+
+.bl-0 {
+    border-left-width: 0
+}
+
+.border-box,
+a,
+aside,
+body,
+div,
+html,
+input[type=text],
+li,
+nav,
+section,
+ul {
+    box-sizing: border-box
+}
+
+.pa0 {
+    padding: 0
+}
+
+.ma0 {
+    margin: 0
+}
+
+.pl0 {
+    padding-left: 0
+}
+
+.ml0 {
+    margin-left: 0
+}
+
+.pr0 {
+    padding-right: 0
+}
+
+.mr0 {
+    margin-right: 0
+}
+
+.pt0 {
+    padding-top: 0
+}
+
+.mt0 {
+    margin-top: 0
+}
+
+.pb0 {
+    padding-bottom: 0
+}
+
+.mb0 {
+    margin-bottom: 0
+}
+
+.pv0 {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.mv0 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.pa2 {
+    padding: .25rem
+}
+
+.ma2 {
+    margin: .25rem
+}
+
+.ml2 {
+    margin-left: .25rem
+}
+
+.nl2 {
+    margin-left: -.25rem
+}
+
+.mr2 {
+    margin-right: .25rem
+}
+
+.pv2 {
+    padding-top: .25rem;
+    padding-bottom: .25rem
+}
+
+.pr3 {
+    padding-right: .5rem
+}
+
+.ph3 {
+    padding-left: .5rem;
+    padding-right: .5rem
+}
+
+.pa4 {
+    padding: .75rem
+}
+
+.pl4 {
+    padding-left: .75rem
+}
+
+.pv4 {
+    padding-top: .75rem;
+    padding-bottom: .75rem
+}
+
+.ph4 {
+    padding-left: .75rem;
+    padding-right: .75rem
+}
+
+.pl5 {
+    padding-left: 1rem
+}
+
+.pr5 {
+    padding-right: 1rem
+}
+
+.pv5 {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.ph6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+}
+
+.mh6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem
+}
+
+.right-0 {
+    right: 0
+}
+
+.bottom-0 {
+    bottom: 0
+}
+
+.left-0 {
+    left: 0
+}
+
+.dn {
+    display: none
+}
+
+.dib {
+    display: inline-block
+}
+
+.flex {
+    display: -webkit-box;
+    display: flex
+}
+
+.flex-column {
+    -webkit-box-orient: vertical;
+    flex-direction: column
+}
+
+.flex-column,
+.flex-row {
+    -webkit-box-direction: normal
+}
+
+.flex-row {
+    -webkit-box-orient: horizontal;
+    flex-direction: row
+}
+
+.items-center {
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.items-stretch {
+    -webkit-box-align: stretch;
+    align-items: stretch
+}
+
+.justify-start {
+    -webkit-box-pack: start;
+    justify-content: flex-start
+}
+
+.justify-center {
+    -webkit-box-pack: center;
+    justify-content: center
+}
+
+.justify-between {
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+
+.justify-around {
+    justify-content: space-around
+}
+
+.flex-grow-1 {
+    -webkit-box-flex: 1;
+    flex-grow: 1
+}
+
+.fr {
+    float: right
+}
+
+body,
+button,
+input {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body,
+button,
+input {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif
+}
+
+.list {
+    list-style-type: none
+}
+
+.h-100 {
+    height: 100%
+}
+
+.min-vh-100 {
+    min-height: 100vh
+}
+
+.min-h-regular {
+    min-height: 2.5rem;
+    box-sizing: border-box
+}
+
+.h-large {
+    height: 3rem;
+    box-sizing: border-box
+}
+
+.gray {
+    color: #979899
+}
+
+.c-action-primary {
+    color: #332927
+}
+
+.c-muted-2 {
+    color: #979899
+}
+
+.c-on-base {
+    color: #3f3f40
+}
+
+img {
+    max-width: 100%
+}
+
+.lh-solid {
+    line-height: 1
+}
+
+.mw7 {
+    max-width: 48rem
+}
+
+.mw9 {
+    max-width: 96rem
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.outline-0 {
+    outline: 0
+}
+
+.overflow-hidden {
+    overflow: hidden
+}
+
+.relative {
+    position: relative
+}
+
+.absolute {
+    position: absolute
+}
+
+.no-underline {
+    text-decoration: none
+}
+
+.v-mid {
+    vertical-align: middle
+}
+
+.t-body,
+body {
+    font-family: MuseoSans;
+    font-weight: 100;
+    text-transform: none;
+    letter-spacing: 0
+}
+
+.t-body,
+body {
+    font-size: 1rem
+}
+
+.t-action {
+    font-size: 1rem
+}
+
+.t-action,
+.t-action--small {
+    font-family: MuseoSans;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0
+}
+
+.t-action--small {
+    font-size: .875rem
+}
+
+.fw5 {
+    font-weight: 500
+}
+
+.center {
+    margin-left: auto
+}
+
+.center {
+    margin-right: auto
+}
+
+.nowrap {
+    white-space: nowrap
+}
+
+.w-100 {
+    width: 100%
+}
+
+.z-999 {
+    z-index: 999
+}
+
+@media screen and (min-width:20em) {
+    body {
+        font-family: MuseoSans;
+        font-weight: 100;
+        text-transform: none;
+        letter-spacing: 0
+    }
+
+    body {
+        font-size: 1rem
+    }
+}
+
+@media screen and (min-width:40em) {
+    body {
+        font-family: MuseoSans;
+        font-weight: 100;
+        text-transform: none;
+        letter-spacing: 0
+    }
+
+    body {
+        font-size: 1rem
+    }
+
+    .ph5-m {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    body {
+        font-family: MuseoSans;
+        font-weight: 100;
+        text-transform: none;
+        letter-spacing: 0
+    }
+
+    body {
+        font-size: 1rem
+    }
+}
+
+@media screen and (min-width:64em) {
+    .db-l {
+        display: block
+    }
+
+    body {
+        font-family: MuseoSans;
+        font-weight: 100;
+        text-transform: none;
+        letter-spacing: 0
+    }
+
+    body {
+        font-size: 1rem
+    }
+}
+
+@media screen and (min-width:80em) {
+    .ph2-xl {
+        padding-left: .25rem;
+        padding-right: .25rem
+    }
+
+    body {
+        font-family: MuseoSans;
+        font-weight: 100;
+        text-transform: none;
+        letter-spacing: 0
+    }
+
+    body {
+        font-size: 1rem
+    }
+}
+
+@-webkit-keyframes vtex-render-runtime-8-x-slide {
+    0% {
+        transform: translate3d(-50%, 0, 0)
+    }
+
+    to {
+        transform: translateZ(0)
+    }
+}
+
+@keyframes vtex-render-runtime-8-x-slide {
+    0% {
+        transform: translate3d(-50%, 0, 0)
+    }
+
+    to {
+        transform: translateZ(0)
+    }
+}
+
+.vtex-render-runtime-8-x-slide {
+    -webkit-animation: vtex-render-runtime-8-x-slide 1.5s linear infinite;
+    animation: vtex-render-runtime-8-x-slide 1.5s linear infinite
+}
+
+.vtex-render-runtime-8-x-lazyload.lazyload {
+    opacity: 0
+}
+
+.vtex-flex-layout-0-x-stretchChildrenWidth {
+    justify-content: center
+}
+
+.vtex-flex-layout-0-x-stretchChildrenWidth>:not(img) {
+    width: 100%
+}
+
+.cafemartinez-store-257VqakvLzxUCW3aXea67b {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.15;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    padding: 5px 7.5px
+}
+
+.cafemartinez-store-257VqakvLzxUCW3aXea67b .cafemartinez-store-2T7ZO2Q8rAOCMY6RXXx8rs {
+    display: inline-block;
+    width: auto;
+    margin: 0 3px 0 0;
+    vertical-align: text-bottom
+}
+
+.vtex-styleguide-9-x-hideDecorators::-ms-clear {
+    display: none
+}
+
+.vtex-styleguide-9-x-noAppearance {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+::-webkit-input-placeholder {
+    color: #979899
+}
+
+::-moz-placeholder {
+    color: #979899
+}
+
+:-ms-input-placeholder {
+    color: #979899
+}
+
+:-moz-placeholder {
+    color: #979899
+}
+
+.vtex-store-components-3-x-searchBarContainer .vtex-input-prefix__group {
+    height: 38px
+}
+
+.vtex-store-components-3-x-searchBarContainer input {
+    color: #727273;
+    border-radius: 1px
+}
+
+@media only screen and (max-width:49rem) {
+    .vtex-store-components-3-x-searchBarContainer input {
+        box-shadow: none
+    }
+}
+
+.vtex-store-components-3-x-sizeDesktop {
+    max-width: 150px;
+    max-height: 75px;
+    min-width: 120px
+}
+
+.vtex-flex-layout-0-x-flexRowContent--main-header,
+.vtex-flex-layout-0-x-flexRowContent--menu-link {
+    padding: 0 .5rem
+}
+
+@media screen and (min-width:40em) {
+
+    .vtex-flex-layout-0-x-flexRowContent--main-header,
+    .vtex-flex-layout-0-x-flexRowContent--menu-link {
+        padding: 0 1rem
+    }
+}
+
+@media screen and (min-width:80rem) {
+
+    .vtex-flex-layout-0-x-flexRowContent--main-header,
+    .vtex-flex-layout-0-x-flexRowContent--menu-link {
+        padding: 0 .25rem
+    }
+}
+
+.vtex-flex-layout-0-x-flexRowContent--main-header {
+    background-color: #fff
+}
+
+.vtex-flex-layout-0-x-flexRowContent--menu-link .vtex-menu-2-x-styledLink {
+    color: #f0f0f0;
+    font-size: 14px
+}
+
+.vtex-flex-layout-0-x-flexRowContent--menu-link {
+    background-color: #d8d3d3
+}
+
+.vtex-flex-layout-0-x-flexRowContent--main-header .vtex-menu-2-x-styledLink {
+    color: #000;
+    font-size: 14px;
+    text-transform: none
+}
+
+@media (max-width:768px) {
+    .vtex-slider-layout-0-x-imageElement--carousel {
+        width: 100% !important
+    }
+}
+
+.vtex-flex-layout-0-x-flexRow--main-secondary-banner-top-container {
+    line-height: 0
+}
+
+.vtex-store-components-3-x-container {
+    width: 100%;
+    padding: 0;
+    max-width: 1920px !important
+}
+
+.vtex-flex-layout-0-x-flexRow--hot-sale-main-double-banners-row1 {
+    padding: 8px
+}
+
+.vtex-flex-layout-0-x-flexCol--especiales-hot-sale-double-banner-col-1 {
+    padding-right: 5px
+}
+
+.vtex-flex-layout-0-x-flexCol--especiales-hot-sale-double-banner-col-2 {
+    padding-left: 5px
+}
+
+@media only screen and (max-width:767px) {
+    .vtex-flex-layout-0-x-flexCol--especiales-hot-sale-double-banner-col-2 {
+        margin-left: -8px !important
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .vtex-flex-layout-0-x-flexRowContent--hot-sale-main-double-banners-row1 {
+        flex-direction: column;
+        margin-left: 3px
+    }
+}
+
+.vtex-flex-layout-0-x-flexRowContent--sub-menu-header {
+    background-color: #f4f4f4
+}
+
+.vtex-flex-layout-0-x-flexCol--menu-header {
+    margin-right: 50px
+}
+
+.vtex-login-2-x-container .vtex-button__label {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.vtex-login-2-x-container .vtex-button__label:before {
+    content: "";
+    background-image: url(/arquivos/icon-user.png);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-top: 0;
+    color: #fff;
+    background-position: 50%
+}
+
+.vtex-login-2-x-container .vtex-button__label span {
+    display: none !important
+}
+
+.vtex-login-2-x-label {
+    padding-left: 1px !important
+}
+
+.vtex-flex-layout-0-x-flexRow--menu-link {
+    height: 32px;
+    max-height: 32px
+}
+
+.vtex-menu-2-x-styledLinkContent--title-top2,
+.vtex-menu-2-x-styledLinkContent--title-top2-tel {
+    font-size: 12px;
+    font-family: MuseoSans;
+    font-weight: 300;
+    color: #051a23
+}
+
+.vtex-menu-2-x-styledLinkContent--title-top2-tel:before {
+    content: "";
+    background: url(/arquivos/icon-mobile.png) no-repeat;
+    background-size: 9px;
+    background-position: top;
+    display: block;
+    width: 17px;
+    height: 17px;
+    padding-right: 4px
+}
+
+.vtex-menu-2-x-styledLinkContent--title-top2-fran:before {
+    content: "";
+    background: url(/arquivos/icono-cv-final.png) no-repeat;
+    background-size: 13px;
+    background-position: top;
+    display: block;
+    width: 17px;
+    height: 17px;
+    padding-right: 4px
+}
+
+.vtex-menu-2-x-styledLinkContent--title-top2-suc:before {
+    content: "";
+    background: url(/arquivos/icon-map.png) no-repeat;
+    background-size: 10px;
+    background-position: top;
+    display: block;
+    width: 17px;
+    height: 17px;
+    padding-right: 4px
+}
+
+.vtex-menu-2-x-styledLinkContent--title-top2-cont:before {
+    content: "";
+    background: url(/arquivos/icon-sobre.png) no-repeat;
+    background-size: 14px;
+    background-position: top;
+    display: block;
+    width: 17px;
+    height: 17px;
+    padding-right: 4px
+}
+
+.vtex-menu-2-x-styledLinkContainer--title-top2,
+.vtex-menu-2-x-styledLinkContainer--title-top2-cont,
+.vtex-menu-2-x-styledLinkContainer--title-top2-fran,
+.vtex-menu-2-x-styledLinkContainer--title-top2-suc,
+.vtex-menu-2-x-styledLinkContainer--title-top2-tel {
+    padding: 10px 0
+}
+
+.vtex-menu-2-x-menuContainer--topMenu .vtex-menu-2-x-menuItem--title-top2 {
+    height: 32px
+}
+
+.vtex-menu-2-x-menuContainer--topMenu .vtex-menu-2-x-menuItem--title-top2 .vtex-menu-2-x-styledLinkContainer--title-top2 .vtex-menu-2-x-styledLink--title-top2 {
+    font-size: 12px !important
+}
+
+.vtex-menu-2-x-menuContainer {
+    width: 100%
+}
+
+.vtex-menu-2-x-styledLinkContainer--title-top2-fran2 {
+    display: inline-flex
+}
+
+.vtex-menu-2-x-styledLinkContainer--title-top2-fran2:before {
+    content: "";
+    background: url(/arquivos/store-fran-menu-p.svg) no-repeat;
+    background-size: 17px;
+    background-position: top;
+    display: block;
+    width: 20px;
+    height: 22px;
+    padding-right: 12px;
+    position: relative;
+    top: -3px
+}
+
+@media (max-width:1025px) {
+    .vtex-menu-2-x-styledLinkContainer--title-top2-fran2:before {
+        top: 16px
+    }
+}
+
+@media (max-width:768px) {
+    .vtex-menu-2-x-styledLinkContent--menu-outlet {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #000
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .vtex-menu-2-x-styledLinkContainer--menu-outlet {
+        margin: 0 0 0 .9rem !important
+    }
+}
+
+.vtex-menu-2-x-styledLinkContainer--menu-item-combos {
+    margin-left: .5rem;
+    margin-right: .5rem
+}
+
+.vtex-menu-2-x-styledLinkContent--menu-item-combos,
+.vtex-menu-2-x-styledLinkContent--menu-outlet {
+    font-weight: 400
+}
+
+.vtex-menu-2-x-styledLink--titulo-categorias {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3f3f40
+}
+
+.vtex-minicart-2-x-openIconContainer {
+    padding: 0
+}
+
+.vtex-minicart-2-x-minicartIconContainer:before {
+    content: "";
+    background-image: url(/arquivos/icon-cart.png);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-top: 0;
+    color: #fff;
+    background-position: 50%
+}
+
+.vtex-minicart-2-x-minicartIconContainer .vtex-minicart-2-x-cartIcon {
+    display: none
+}
+
+.vtex-slider-layout-0-x-sliderLayoutContainer {
+    justify-content: center
+}
+
+.vtex-slider-layout-0-x-slideChildrenContainer--carousel {
+    background: #fff
+}
+
+.vtex-slider-layout-0-x-sliderLayoutContainer--carousel {
+    background-color: #f0f0f0
+}
+
+.vtex-slider-layout-0-x-sliderLayoutContainer--carousel .vtex-slider-layout-0-x-sliderArrows {
+    background-color: #fff !important;
+    opacity: .6;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px
+}
+
+.vtex-slider-layout-0-x-paginationDotsContainer {
+    margin-top: .5rem;
+    margin-bottom: .5rem
+}
+
+.vtex-store-components-3-x-container {
+    max-width: 84rem
+}
+
+.vtex-store-components-3-x-searchBarContainer {
+    height: max-content;
+    padding: 0;
+    margin: auto 20px
+}
+
+@media (min-width:768px) {
+    .vtex-store-components-3-x-searchBarContainer {
+        width: 360px
+    }
+}
+
+@media (max-width:768px) {
+    .vtex-store-components-3-x-searchBarContainer {
+        margin: 0 10px 10px
+    }
+}
+
+.vtex-store-components-3-x-logoImage {
+    width: 60%
+}
+
+@media (max-width:768px) {
+    .vtex-store-components-3-x-logoImage {
+        width: 120px
+    }
+}
+
+.vtex-button {
+    border-radius: 0
+}
+
+.vtex-store-components-3-x-imageElementLink {
+    font-size: 0
+}
+
+@media screen and (min-width:1025px) {
+    .vtex-store-components-3-x-logoImage {
+        width: 80%;
+        max-width: 180px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .vtex-store-components-3-x-logoImage {
+        width: 65%
+    }
+}
+
+.vtex-sticky-layout-0-x-container .vtex-minicart-2-x-openIconContainer,
+.vtex-sticky-layout-0-x-container .vtex-store-components-3-x-logoLink,
+.vtex-sticky-layout-0-x-container .vtex-store-components-3-x-searchBarContainer {
+    display: block
+}
+
+.vtex-flex-layout-0-x-flexRowContent--main-header {
+    will-change: padding, background
+}
+
+.vtex-flex-layout-0-x-flexRowContent--main-header {
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+.vtex-flex-layout-0-x-flexRow--sticky-header {
+    z-index: 4
+}
+
+.vtex-sticky-layout-0-x-wrapper--sticky-header {
+    background-color: #fff
+}
+
+@media screen and (min-width:1025px) {
+    .vtex-sticky-layout-0-x-container .vtex-store-components-3-x-searchBarContainer {
+        width: 100%;
+        margin-left: .3rem
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .vtex-sticky-layout-0-x-container .vtex-store-components-3-x-searchBarContainer {
+        width: 300px
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .vtex-sticky-layout-0-x-container .vtex-store-components-3-x-searchBarContainer {
+        width: 360px;
+        margin-left: 20px
+    }
+}
+
+.vtex-store-components-3-x-autoCompleteOuterContainer {
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px
+}
+
+.vtex-store-components-3-x-autoCompleteOuterContainer .vtex-styleguide-9-x-input {
+    background-color: #fff;
+    max-width: 308px
+}
+
+@media (max-width:768px) {
+    .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-styleguide-9-x-input {
+        max-width: 100%
+    }
+}
+
+.vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input-prefix__group {
+    border: none
+}
+
+.vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input__suffix {
+    display: block
+}
+
+@media (max-width:768px) {
+    .vtex-store-components-3-x-autoCompleteOuterContainer .vtex-input__suffix {
+        padding: 0
+    }
+}
+
+@font-face {
+    font-family: MuseoSans;
+    src: url(https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/fonts/MuseoSans-100_1___06df77a69b890717c348a47849b42048.ttf);
+    font-weight: 100
+}
+
+@font-face {
+    font-family: MuseoSans;
+    src: url(https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/fonts/MuseoSans-300_1___7329c29d11db3f5b63741731f3ea3dca.ttf);
+    font-weight: 300
+}
+
+@font-face {
+    font-family: MuseoSans;
+    src: url(https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/fonts/MuseoSans_500___1030013b7a981305dbb1af9f6c955d3d.ttf);
+    font-weight: 500
+}
+
+@font-face {
+    font-family: MuseoSans;
+    src: url(https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/fonts/MuseoSans_700___81b994710d755c84214d4c64af377faf.ttf);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: MuseoSans;
+    src: url(https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/fonts/MuseoSans_900___a794d69caba458f55c82c864801ba3d9.ttf);
+    font-weight: 900
+}
+</style>
