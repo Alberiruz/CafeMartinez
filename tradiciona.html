@@ -23,20 +23,24 @@
         <div class="vtex-store-footer-2-x-footerLayout">
             <div class="vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--footer-mobile-menu">
                 <section class="vtex-store-components-3-x-container ph3 ph5-m ph2-xl mw9 center">
-                    <div class="flex-none flex-ns mt0 mb0 pt0 pb0 justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--footer-mobile-menu items-stretch w-100">
+                    <div
+                        class="flex-none flex-ns mt0 mb0 pt0 pb0 justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--footer-mobile-menu items-stretch w-100">
                         <div class="pr0-ns pb0 pb0-ns items-stretch vtex-flex-layout-0-x-stretchChildrenWidth flex"
                             style="width: 100%;">
                             <nav class="vtex-menu-2-x-menuContainerNav vtex-menu-2-x-menuContainerNav--menu-footer">
-                                <ul class="vtex-menu-2-x-menuContainer vtex-menu-2-x-menuContainer--menu-footer list flex pl0 mv0 flex-column">
-                                    <div class="vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--menu-row-footer2">
-                                        <div class="flex-none flex-ns mt0 mb0 pt0 pb0 justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--menu-row-footer2 items-stretch w-100">
+                                <ul
+                                    class="vtex-menu-2-x-menuContainer vtex-menu-2-x-menuContainer--menu-footer list flex pl0 mv0 flex-column">
+                                    <div
+                                        class="vtex-flex-layout-0-x-flexRow vtex-flex-layout-0-x-flexRow--menu-row-footer2">
+                                        <div
+                                            class="flex-none flex-ns mt0 mb0 pt0 pb0 justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--menu-row-footer2 items-stretch w-100">
                                             <div class="pr0-ns pb0 pb0-ns items-stretch vtex-flex-layout-0-x-stretchChildrenWidth flex"
                                                 style="width: 50%;">
-                                                <div class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--menu-col-footer vtex-flex-layout-0-x-flexCol--col-social  ml0 mr0 pl0 pr0 flex flex-column h-100 w-100 justify-center items-center">
+                                                <div
+                                                    class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--menu-col-footer vtex-flex-layout-0-x-flexCol--col-social  ml0 mr0 pl0 pr0 flex flex-column h-100 w-100 justify-center items-center">
                                                     <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer vtex-flex-layout-0-x-flexColChild--col-social pb0"
                                                         style="height: 100%;">
-                                                        <img title="" sizes="" srcset=""
-                                                            alt=""
+                                                        <img title="" sizes="" srcset="" alt=""
                                                             class="vtex-store-components-3-x-imageElement vtex-store-components-3-x-imageElement--logo-footer-img vtex-render-runtime-8-x-lazyload lazyloaded"
                                                             loading="lazy" crossorigin="anonymous"
                                                             data-src="https://cafemartinez.vtexassets.com/arquivos/logo-blanco.png"
@@ -47,7 +51,8 @@
                                             <!-- INSTITUCIONAL -->
                                             <div class="pr0-ns pb0 pb0-ns items-stretch vtex-flex-layout-0-x-stretchChildrenWidth flex"
                                                 style="width: 100%;">
-                                                <div class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--menu-col-footer  ml0 mr0 pl0 pr0 flex flex-column h-100 w-100">
+                                                <div
+                                                    class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--menu-col-footer  ml0 mr0 pl0 pr0 flex flex-column h-100 w-100">
                                                     <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
                                                         style="height: 100%;">
                                                         <div
@@ -63,8 +68,7 @@
                                                     <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
                                                         style="height: 100%;">
                                                         <nav class="vtex-menu-2-x-menuContainerNav">
-                                                            <ul
-                                                                class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
+                                                            <ul class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
                                                                 style="height: 100%;">
                                                                 <a target="_blank"
                                                                     href="/arquivos/cafe-martinez-menu.pdf"
@@ -86,7 +90,7 @@
             </div>
         </div>
     </header>
-    
+
     </div>
 
 
@@ -223,27 +227,39 @@
                                             <label for="menu-qr">
                                                 <h5>Menu QR</h5>
                                             </label><br>
-                                            
+
                                         </div>
-                                    </div>
+
                                 </fieldset>
-                                <div class="form-group">
-                                    <button type="submit" class="submit-button">
-                                        <h5>Enviar Formulario</h5>
-                                    </button>
-                                    <button type="reset" class="submit-button">
-                                        <h5>Borrar</h5>
-                                    </button>
-                                </div>
-                            </form>
+
+                                <form action="https://formspree.io/f/mwkdrqdp" method="POST">
+                                    <label>
+                                        Local Email:
+                                        <input type="email" name="email">
+                                    </label>
+                                    <label><br>
+                                        Tu Comentario:
+                                        <textarea name="message"></textarea>
+                                    </label>
+                                    <!-- your other form fields go here -->
+                                    <div class="form-group">
+                                        <button type="submit" class="submit-button">
+                                            <h5>Enviar Formulario</h5>
+                                        </button>
+                                        <button type="reset" class="submit-button">
+                                            <h5>Borrar</h5>
+                                        </button>
+                                    </div>
+
+                                </form>
                         </div>
                     </h5>
                 </div>
 
                 <div class="Cafe-Take-Away-MDQ">
-                       <div class="Sugerencias">
-                    <h5>Sugerencias</h5>
-                </div>
+                    <div class="Sugerencias">
+                        <h5>Sugerencias</h5>
+                    </div>
                     <h5>Cafe Take Away MDQ</h5>
                 </div>
                 <div class="Recarga-Vaso-Reutilizable">
