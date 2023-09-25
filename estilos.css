@@ -42,6 +42,10 @@
     align-items: center;
 }
 
+
+
+
+
 /* Estilos para el botón de subir en hover */
 .boton-subir label:hover {
     background-color: #4254b5; /* Cambia el color al pasar el cursor sobre el botón */
@@ -127,20 +131,10 @@ body {
     border-radius: 4px;
 }
 
-.contenedor .pie {
-    background: rgb(170, 115, 233);
-    color: #fff;
-    grid-area: encabezado;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 50px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #000;
-    border-radius: 4px;
-}
+
+
+
+
 
 /* Estilos para el formulario */
 .contact-form {
