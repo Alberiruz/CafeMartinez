@@ -1,3 +1,36 @@
+/* Estilo del botón circular */
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilo de la flecha (usando pseudo-elemento ::before) */
+  .scroll-button::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
 /* Estilos CSS generales */
 * {
     margin: 0;
@@ -1673,4 +1706,6 @@ body {
     font-family: MuseoSans;
     src: url(https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/fonts/MuseoSans_900___a794d69caba458f55c82c864801ba3d9.ttf);
     font-weight: 900
-}
+
+    
+    
