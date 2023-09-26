@@ -236,6 +236,7 @@ body {
 /* Estilos CSS para centrar texto en las etiquetas h5 dentro de las celdas */
 
 .contenido-menu,
+.Recuadro-Leyenda,
 .contenido-favorito,
 .Cafeteria,
 .Sugerencias,
@@ -339,6 +340,7 @@ body {
     /* Reducir el tamaño de fuente en pantallas medianas */
 
     .contenido-menu,
+    .Recuadro-Leyenda,
     .contenido-favorito,
     .Cafeteria,
     .Sugerencias,
@@ -425,6 +427,7 @@ body {
     /* Reducir el tamaño de fuente en pantallas pequeñas */
 
     .contenido-menu,
+    .Recuadro-Leyenda,
     .contenido-favorito,
     .Cafeteria,
     .Sugerencias,
@@ -511,6 +514,7 @@ body {
     /* Reducir el tamaño de fuente en pantallas extra pequeñas */
 
     .contenido-menu,
+    .Recuadro-Leyenda,
     .contenido-favorito,
     .Cafeteria,
     .Sugerencias,
