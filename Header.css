@@ -1,4 +1,4 @@
-<style>
+
 /* Estilos para el menú desplegable */
 .dropdown {
     position: relative;
@@ -28,4 +28,3 @@
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-</style>

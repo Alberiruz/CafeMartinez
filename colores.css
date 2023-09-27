@@ -27,45 +27,9 @@
     margin: 0;
     display: inline; /* Asegura que todo el contenido esté en la misma línea */
 }
-
-.Cafe-Take-Away-MDQ {
-    background: rgb(248, 156, 35);
-    color: #000;
-    padding: 2%;
-    border: 2px solid black;
-    font-size: 1rem;
-    position: relative;
-}
-
-.Recarga-Vaso-Reutilizable {
-    background: rgb(155, 75, 11);
-    color: #f7efef;
-    padding: 2%;
-    border: 2px solid black;
-    font-size: 1rem;
-    position: relative;
-}
-
-.Cafe-Take-Away-Mediano {
-    background: rgb(231, 228, 25);
-    color: #f7efef;
-    padding: 2%;
-    border: 2px solid black;
-    font-size: 1rem;
-    position: relative;
-}
-
-.Cafe-Take-Away-MDQ-Grande {
-    background: rgb(48, 27, 233);
-    color: #000;
-    padding: 2%;
-    border: 2px solid black;
-    font-size: 1rem;
-    position: relative;
-}
-
-.Cafe-Con-Leche-Salon {
-    background: rgb(231, 228, 25);
+/* Colores en español */
+.rojo {
+    background: red;
     color: #000;
     padding: 2%;
     border-radius: 4px;
@@ -74,8 +38,8 @@
     position: relative;
 }
 
-.Pocillo-Imperdible {
-    background: rgb(30, 146, 140);
+.azul {
+    background: blue;
     color: #000;
     padding: 2%;
     border-radius: 4px;
@@ -84,18 +48,8 @@
     position: relative;
 }
 
-.Pocillo {
-    background: rgb(39, 187, 26);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-    position: relative;
-}
-
-.Americano {
-    background: rgb(39, 187, 26);
+.verde {
+    background: green;
     color: #000;
     padding: 2%;
     border-radius: 4px;
@@ -104,29 +58,8 @@
     position: relative;
 }
 
-.Americano-Imperdible {
-    background: rgb(216, 108, 36);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 0,1rem;
-    position: relative;
-}
-
-.Cafe-Con-Leche-Imperdible {
-    background: rgb(211, 11, 11);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-    position: relative;
-
-}
-
-.Doble {
-    background: rgb(211, 11, 11);
+.amarillo {
+    background: yellow;
     color: #000;
     padding: 2%;
     border-radius: 4px;
@@ -135,9 +68,8 @@
     position: relative;
 }
 
-.Doble-Imperdible
-{
-    background: rgb(218, 36, 157);
+.naranja {
+    background: orange;
     color: #000;
     padding: 2%;
     border-radius: 4px;
@@ -146,9 +78,18 @@
     position: relative;
 }
 
-.Latte-Mug
-{
-    background: rgb(216, 108, 36);
+.morado {
+    background: purple;
+    color: #fff;
+    padding: 2%;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: 1rem;
+    position: relative;
+}
+
+.rosado {
+    background: pink;
     color: #000;
     padding: 2%;
     border-radius: 4px;
@@ -157,9 +98,38 @@
     position: relative;
 }
 
-.Latte-Especial-Caliente
-{
-    background: rgb(138, 112, 82);
+.turquesa {
+    background: teal;
+    color: #fff;
+    padding: 2%;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: 1rem;
+    position: relative;
+}
+
+.marron {
+    background: brown;
+    color: #fff;
+    padding: 2%;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: 1rem;
+    position: relative;
+}
+
+.carmesí {
+    background: crimson;
+    color: #fff;
+    padding: 2%;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: 1rem;
+    position: relative;
+}
+
+.oro {
+    background: gold;
     color: #000;
     padding: 2%;
     border-radius: 4px;
@@ -168,10 +138,9 @@
     position: relative;
 }
 
-.Latte-Especial-Frio
-{
-    background: rgb(151, 224, 230);
-    color: #f7efef;
+.indigo {
+    background: indigo;
+    color: #fff;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
@@ -179,22 +148,9 @@
     position: relative;
 }
 
-.Cafe-Irlandes
-{
-    background: rgb(151, 224, 230);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid rgb(228, 217, 217);
-    font-size: 1rem;
-    position: relative;
-}
-
-
-.Capuchino
-{
-    background: rgb(7, 92, 35);
-    color: #fdf9f9;
+.granate {
+    background: maroon;
+    color: #fff;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
@@ -202,20 +158,9 @@
     position: relative;
 }
 
-.Capuchino-Caliente
-{
-    background: rgb(211, 11, 11);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-    position: relative;
-}
-.Capuchino-Frio
-{
-    background: rgb(211, 11, 11);
-    color: #f7efef;
+.grisplomo {
+    background: slategray;
+    color: #fff;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
@@ -223,477 +168,198 @@
     position: relative;
 }
 
-.Capuchino-Italiano
-{
-    background: rgb(45, 100, 219);
-    color: #f7efef;
+.naranjao {
+    background: darkorange;
+    color: #fff;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Chocolatada {
-    background: rgb(233, 212, 27);
+
+/* Colores Claros en español */
+.blanco {
+    background: white;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Cold-Brew
-{
-    background: rgb(238, 96, 191);
+.grisclaro {
+    background: lightgray;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Cold-Brew-Clasico
-{
-    background: lightseagreen;
+.azulclaro {
+    background: lightblue;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Cold-Brew-Latte-Caramel {
-    background: rgb(1, 10, 15);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.Cold-Brew-Latte-Vainilla
-{
-    background: rgb(230, 24, 24);
+.verdeclaro {
+    background: lightgreen;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Jarra-Prensa-Francesa
-{
-    background: rgb(224, 94, 218);
+.amarilloclaro {
+    background: lightyellow;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Refill-Pocillo
-{
-    background: rgb(128, 232, 240);
+.rosadoclaro {
+    background: lightpink;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
-
+    position: relative;
 }
 
-.Submarino {
-    background: rgb(229, 231, 229);
+.lilaclaro {
+    background: lavender;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Te {
-    background: lightseagreen;
+.celesteclaro {
+    background: lightcyan;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Te-Con-Leche
-{
-    background: rgb(13, 122, 49);
+.salmonclaro {
+    background: lightsalmon;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Te-Con-Limon
-{
-    background: rgb(12, 245, 51);
+.beigeclaro {
+    background: beige;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.Vaso-De-Leche
-{
-    background: rgb(15, 10, 1);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.Cafe-Laboratorio
-{
-    background: rgb(15, 15, 15);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid rgb(228, 217, 217);
-    font-size: 1rem;
-}
-
-
-.Chocolatada-Nut
-{
-    background: rgb(179, 23, 2);
-    color: #fdf9f9;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.Orange-Cold-Brew
-{
-    background: rgb(248, 156, 35);
+.cyanclaro {
+    background: lightcyan;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
-}
-.Golden-Latte
-{
-    background: rgb(155, 75, 11);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
+    position: relative;
 }
 
-.Latte-Coffee
-{
-    background: rgb(45, 100, 219);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.Pocillo-Chacabuco {
-    background: rgb(233, 212, 27);
+.verdeclaro {
+    background: lightgreen;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.contenido-55 {
-    background: rgb(238, 96, 191);
+.violetaclaro {
+    background: lavenderblush;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.contenido-56 {
-    background: lightseagreen;
+.naranjaclaro {
+    background: lightcoral;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.contenido-57 {
-    background: rgb(1, 10, 15);
-    color: #f7efef;
+.negro {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.contenido-58 {
-    background: rgb(230, 24, 24);
+/* Marrón Claro */
+.marronclaro {
+    background: burlywood;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.contenido-59 {
-    background: rgb(224, 94, 218);
+/* Celeste */
+.celeste {
+    background: lightblue;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
+    position: relative;
 }
 
-.contenido-60 {
-    background: rgb(128, 232, 240);
+
+/* Beige */
+.beige {
+    background: beige;
     color: #000;
     padding: 2%;
     border-radius: 4px;
     border: 2px solid black;
     font-size: 1rem;
-
-}
-
-.contenido-61 {
-    background: rgb(229, 231, 229);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.contenido-62 {
-    background: lightseagreen;
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.contenido-63 {
-    background: rgb(13, 122, 49);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.contenido-64 {
-    background: rgb(12, 245, 51);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.contenido-65 {
-    background: rgb(15, 10, 1);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.contenido-66 {
-    background: rgb(15, 15, 15);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid rgb(228, 217, 217);
-    font-size: 1rem;
-}
-
-
-.contenido-67 {
-    background: rgb(179, 23, 2);
-    color: #fdf9f9;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-.contenido-68 {
-    background: rgb(248, 156, 35);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-/* Estilos para .Cafeteria */
-.Cafeteria {
-    background: rgb(155, 75, 11);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Sugerencias */
-.Sugerencias {
-    background: rgb(45, 100, 219);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Medialunas-tostadas-facturas */
-.Medialunas-tostadas-facturas {
-    background: rgb(233, 212, 27);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Adicionales-diferencias */
-.Adicionales-diferencias {
-    background: rgb(238, 96, 191);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Almuerzo-cenas */
-.Almuerzo-cenas {
-    background: lightseagreen;
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Sandwiches */
-.Sandwiches {
-    background: rgb(1, 10, 15);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Gaseosas-aguas-saborizadas */
-.Gaseosas-aguas-saborizadas {
-    background: rgb(230, 24, 24);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Stacc-Kosher */
-.Stacc-Kosher {
-    background: rgb(224, 94, 218);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Mueble-Express */
-.Mueble-Express {
-    background: rgb(128, 232, 240);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Merchandising */
-.Merchandising {
-    background: rgb(229, 231, 229);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Molienda */
-.Molienda {
-    background: lightseagreen;
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Tortas */
-.Tortas {
-    background: rgb(13, 122, 49);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Delicias */
-.Delicias {
-    background: rgb(12, 245, 51);
-    color: #000;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Jugos-Licuados-Granizados */
-.Jugos-Licuados-Granizados {
-    background: rgb(15, 10, 1);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
-}
-
-/* Estilos para .Almacen */
-.Almacen,
-.Jugos-Licuados-Granizados,
-.Sandwiches {
-    background: rgb(15, 15, 15);
-    color: #f7efef;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid rgb(228, 217, 217);
-    font-size: 1rem;
-}
-
-
-.Bebidas-con-Alcohol {
-    background: rgb(179, 23, 2);
-    color: #fdf9f9;
-    padding: 2%;
-    border-radius: 4px;
-    border: 2px solid black;
-    font-size: 1rem;
+    position: relative;
 }
