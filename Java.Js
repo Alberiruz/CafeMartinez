@@ -28,3 +28,7 @@ contenedor.addEventListener('click', () => {
     edadInput.value = edadContenedor;
     emailInput.value = emailContenedor;
 });
+
+
+
+

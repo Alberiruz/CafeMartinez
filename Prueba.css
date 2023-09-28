@@ -8,13 +8,17 @@
   transform: translateX(-50%);
 }
 
-.Codigo {
-    color: #050505;
-  padding: 2%;
-  font-size: 0.4rem; /* Establece el tamaño de fuente al 50% del tamaño original */
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.rojo a,
+.azul a,
+.amarillo a,
+.rosado a,
+.turquesa a,
+.negro a,
+.cyanclaro a,
+.blanco a,
+.verde a,
+.verdeclaro a,
+.marron a {
+    color: inherit;
+    text-decoration: none;
 }
-
