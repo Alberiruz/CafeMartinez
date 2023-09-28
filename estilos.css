@@ -211,7 +211,8 @@
 .Recuadro-Leyenda,
 .contenido-favorito,
 .rojo, 
-.azul, 
+.azul,
+.codigo, 
 .verde, 
 .amarillo, 
 .naranja, 
@@ -243,6 +244,7 @@
 .marronclaro, 
 .celeste, 
 .beige, 
+.rosado h5,
 .contenedor .pie {
     text-align: center;
     /* Centrar horizontalmente */
@@ -292,6 +294,7 @@
     .contenido-favorito,
     .rojo, 
     .azul, 
+    .codigo, 
     .verde, 
     .amarillo, 
     .naranja, 
@@ -323,6 +326,7 @@
     .marronclaro, 
     .celeste, 
     .beige, 
+    .rosado h5,
     .contenedor .pie  {
         font-size: 0.5rem;
         /* Tamaño de fuente más pequeño */
@@ -344,7 +348,8 @@
     .contenido-favorito,
     .rojo, 
     .azul, 
-    .verde, 
+    .verde,
+    .codigo,  
     .amarillo, 
     .naranja, 
     .morado, 
@@ -375,6 +380,7 @@
     .marronclaro, 
     .celeste, 
     .beige, 
+    .rosado h5,
     .contenedor .pie  {
         font-size: 0.4rem;
         /* Tamaño de fuente más pequeño */
@@ -395,6 +401,7 @@
     .contenido-favorito,
     .rojo, 
     .azul, 
+    .codigo,
     .verde, 
     .amarillo, 
     .naranja, 
@@ -426,6 +433,7 @@
     .marronclaro, 
     .celeste, 
     .beige, 
+    .rosado h5,
     .contenedor .pie  {
         font-size: 0.3rem;
         /* Tamaño de fuente más pequeño */
