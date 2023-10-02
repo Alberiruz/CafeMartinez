@@ -62,7 +62,7 @@
     box-sizing: border-box;
 }
 
- .body {
+.body {
     background: rgb(185, 120, 120);
     color: #000;
     font-family: 'Roboto', sans-serif;
@@ -203,47 +203,119 @@
 
 
 
+.carousel-container {
+    width: 100%;
+}
+
+.carousel-item {
+    width: 101%;
+    height: 575px;
+    /* Establece el alto fijo para todos los elementos del carrusel */
+    /* align-items: center;
+    justify-content: center;
+    overflow: hidden;  */
+}
+
+.carousel-item img,
+.carousel-item iframe {
+    width: 101%;
+    height: 575px;
+    /* align-items: center;
+    justify-content: center; */
+
+}
 
 
+
+.carousel-container .slick-prev,
+.carousel-container .slick-next {
+    display: none;
+}
+
+
+
+    .fullscreen-container {
+        display: flex;
+      
+    }
+
+    .fullscreen-iframe {
+        flex: 12;
+   
+    }
+
+         /* Estilos generales para la tabla */
+         table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Estilos para las celdas */
+        td {
+            padding: 10px;
+            text-align: center;
+            border: none; /* Elimina el borde de las celdas */
+        }
+
+        /* Estilos para las imágenes */
+        img {
+            max-width: 200px; /* Tamaño máximo de las imágenes */
+            height: auto;
+            border: none; /* Elimina el borde de las imágenes */
+            display: block;
+            margin: 0 auto; /* Centra las imágenes horizontalmente */
+        }
+
+        /* Estilos para los encabezados h4 */
+        h4 {
+            font-size: 24px; /* Tamaño de fuente más grande para los encabezados h4 */
+            color: #1f1d1d; /* Color de fuente para resaltar */
+        }
+
+        /* Estilos para resaltar "Café Martínez" */
+        .resaltado {
+            color: #0e0d0d; /* Color de fuente para resaltar */
+            font-weight: bold; /* Texto en negrita para resaltar */
+        }
 /* Estilos CSS para centrar texto en las etiquetas h5 dentro de las celdas */
 
 .contenido-menu,
 .Recuadro-Leyenda,
 .contenido-favorito,
-.rojo, 
+.rojo,
 .azul,
-.codigo, 
-.verde, 
-.amarillo, 
-.naranja, 
-.morado, 
-.rosado, 
-.turquesa, 
-.marron, 
-.carmesí, 
-.oro, 
-.indigo, 
-.granate, 
-.grisplomo, 
-.naranjao, 
-.blanco, 
-.grisclaro, 
-.azulclaro, 
-.verdeclaro, 
-.amarilloclaro, 
-.rosadoclaro, 
-.lilaclaro, 
-.celesteclaro, 
-.salmonclaro, 
-.beigeclaro, 
-.cyanclaro, 
-.verdeclaro, 
-.violetaclaro, 
-.naranjaclaro, 
-.negro, 
-.marronclaro, 
-.celeste, 
-.beige, 
+.codigo,
+.verde,
+.amarillo,
+.naranja,
+.morado,
+.rosado,
+.turquesa,
+.marron,
+.carmesí,
+.oro,
+.indigo,
+.granate,
+.grisplomo,
+.naranjao,
+.blanco,
+.grisclaro,
+.azulclaro,
+.verdeclaro,
+.amarilloclaro,
+.rosadoclaro,
+.lilaclaro,
+.celesteclaro,
+.salmonclaro,
+.beigeclaro,
+.cyanclaro,
+.verdeclaro,
+.violetaclaro,
+.naranjaclaro,
+.negro,
+.marronclaro,
+.celeste,
+.beige,
 .rosado h5,
 .contenedor .pie {
     text-align: center;
@@ -259,14 +331,7 @@
     /* Centrar verticalmente con Flexbox */
 }
 
-@media screen and (max-width: 1024px) {
 
-    /* Pantallas grandes */
-    body {
-        background: #f19a47;
-        /* Fondo crema */
-    }
-}
 
 
 @media screen and (max-width: 2048px) {
@@ -279,7 +344,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
 
     /* Pantallas medianas */
     body {
@@ -292,42 +357,42 @@
     .contenido-menu,
     .Recuadro-Leyenda,
     .contenido-favorito,
-    .rojo, 
-    .azul, 
-    .codigo, 
-    .verde, 
-    .amarillo, 
-    .naranja, 
-    .morado, 
-    .rosado, 
-    .turquesa, 
-    .marron, 
-    .carmesí, 
-    .oro, 
-    .indigo, 
-    .granate, 
-    .grisplomo, 
-    .naranjao, 
-    .blanco, 
-    .grisclaro, 
-    .azulclaro, 
-    .verdeclaro, 
-    .amarilloclaro, 
-    .rosadoclaro, 
-    .lilaclaro, 
-    .celesteclaro, 
-    .salmonclaro, 
-    .beigeclaro, 
-    .cyanclaro, 
-    .verdeclaro, 
-    .violetaclaro, 
-    .naranjaclaro, 
-    .negro, 
-    .marronclaro, 
-    .celeste, 
-    .beige, 
+    .rojo,
+    .azul,
+    .codigo,
+    .verde,
+    .amarillo,
+    .naranja,
+    .morado,
+    .rosado,
+    .turquesa,
+    .marron,
+    .carmesí,
+    .oro,
+    .indigo,
+    .granate,
+    .grisplomo,
+    .naranjao,
+    .blanco,
+    .grisclaro,
+    .azulclaro,
+    .verdeclaro,
+    .amarilloclaro,
+    .rosadoclaro,
+    .lilaclaro,
+    .celesteclaro,
+    .salmonclaro,
+    .beigeclaro,
+    .cyanclaro,
+    .verdeclaro,
+    .violetaclaro,
+    .naranjaclaro,
+    .negro,
+    .marronclaro,
+    .celeste,
+    .beige,
     .rosado h5,
-    .contenedor .pie  {
+    .contenedor .pie {
         font-size: 0.5rem;
         /* Tamaño de fuente más pequeño */
     }
@@ -346,42 +411,42 @@
     .contenido-menu,
     .Recuadro-Leyenda,
     .contenido-favorito,
-    .rojo, 
-    .azul, 
+    .rojo,
+    .azul,
     .verde,
-    .codigo,  
-    .amarillo, 
-    .naranja, 
-    .morado, 
-    .rosado, 
-    .turquesa, 
-    .marron, 
-    .carmesí, 
-    .oro, 
-    .indigo, 
-    .granate, 
-    .grisplomo, 
-    .naranjao, 
-    .blanco, 
-    .grisclaro, 
-    .azulclaro, 
-    .verdeclaro, 
-    .amarilloclaro, 
-    .rosadoclaro, 
-    .lilaclaro, 
-    .celesteclaro, 
-    .salmonclaro, 
-    .beigeclaro, 
-    .cyanclaro, 
-    .verdeclaro, 
-    .violetaclaro, 
-    .naranjaclaro, 
-    .negro, 
-    .marronclaro, 
-    .celeste, 
-    .beige, 
+    .codigo,
+    .amarillo,
+    .naranja,
+    .morado,
+    .rosado,
+    .turquesa,
+    .marron,
+    .carmesí,
+    .oro,
+    .indigo,
+    .granate,
+    .grisplomo,
+    .naranjao,
+    .blanco,
+    .grisclaro,
+    .azulclaro,
+    .verdeclaro,
+    .amarilloclaro,
+    .rosadoclaro,
+    .lilaclaro,
+    .celesteclaro,
+    .salmonclaro,
+    .beigeclaro,
+    .cyanclaro,
+    .verdeclaro,
+    .violetaclaro,
+    .naranjaclaro,
+    .negro,
+    .marronclaro,
+    .celeste,
+    .beige,
     .rosado h5,
-    .contenedor .pie  {
+    .contenedor .pie {
         font-size: 0.4rem;
         /* Tamaño de fuente más pequeño */
     }
@@ -399,42 +464,42 @@
     .contenido-menu,
     .Recuadro-Leyenda,
     .contenido-favorito,
-    .rojo, 
-    .azul, 
+    .rojo,
+    .azul,
     .codigo,
-    .verde, 
-    .amarillo, 
-    .naranja, 
-    .morado, 
-    .rosado, 
-    .turquesa, 
-    .marron, 
-    .carmesí, 
-    .oro, 
-    .indigo, 
-    .granate, 
-    .grisplomo, 
-    .naranjao, 
-    .blanco, 
-    .grisclaro, 
-    .azulclaro, 
-    .verdeclaro, 
-    .amarilloclaro, 
-    .rosadoclaro, 
-    .lilaclaro, 
-    .celesteclaro, 
-    .salmonclaro, 
-    .beigeclaro, 
-    .cyanclaro, 
-    .verdeclaro, 
-    .violetaclaro, 
-    .naranjaclaro, 
-    .negro, 
-    .marronclaro, 
-    .celeste, 
-    .beige, 
+    .verde,
+    .amarillo,
+    .naranja,
+    .morado,
+    .rosado,
+    .turquesa,
+    .marron,
+    .carmesí,
+    .oro,
+    .indigo,
+    .granate,
+    .grisplomo,
+    .naranjao,
+    .blanco,
+    .grisclaro,
+    .azulclaro,
+    .verdeclaro,
+    .amarilloclaro,
+    .rosadoclaro,
+    .lilaclaro,
+    .celesteclaro,
+    .salmonclaro,
+    .beigeclaro,
+    .cyanclaro,
+    .verdeclaro,
+    .violetaclaro,
+    .naranjaclaro,
+    .negro,
+    .marronclaro,
+    .celeste,
+    .beige,
     .rosado h5,
-    .contenedor .pie  {
+    .contenedor .pie {
         font-size: 0.3rem;
         /* Tamaño de fuente más pequeño */
     }

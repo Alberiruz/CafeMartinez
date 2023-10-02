@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +13,12 @@
     <link rel="stylesheet" href="Prueba.css">
     <link rel="stylesheet" type="text/css" href="formulario.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <title>Tarifas Precios</title>
 </head>
-
-
 
 
 
@@ -79,43 +83,107 @@
                                                                 <a href="SMART.html">SMART</a>
                                                                 <a href="A La Barra.html">A La Barra</a>
                                                                 <a href="peya.html">Pedidos ya</a>
-                                                        </div>
-                                                    </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- FIN DEL MENÚ DESPLEGABLE -->
                                         </div>
                                     </div>
-                                </ul>
-                            </nav>
+                                    <!-- FIN DEL MENÚ DESPLEGABLE -->
                         </div>
                     </div>
-                </section>
+                    </ul>
+                    </nav>
             </div>
+        </div>
+        </section>
+        </div>
         </div>
     </header>
 
+
+
+
+
     </div>
 
 
-
-    <div class="contenedor">
-        <main class="contenido">
-
-            <!-- Botón de subir -->
-            <a href="#top">
-                <div class="boton-subir">
-                    <label for="showScrollButton">
-                        <span>&#8593;</span>
-                    </label>
-                </div>
-            </a>
-        </main>
+    <div class="carousel-container" slick-next="none">
+        <div class="carousel-item">
+            <iframe
+                src="https://cafemartinez.vtexassets.com/assets/vtex.file-manager-graphql/images/5e5aa813-0eba-455a-9c13-30ae74431a15___85d0e614c6d739f05a76a21e779ffaa6.jpg"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-item">
+            <iframe
+                src="https://cafemartinez.vtexassets.com/assets/vtex.file-manager-graphql/images/2334fdac-2830-46ea-b072-4cd07e5405ef___b7e6d26fef05b1211ad8e24041f785b3.jpg"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-item">
+            <iframe
+                src="https://cafemartinez.vtexassets.com/assets/vtex.file-manager-graphql/images/df176d8f-9123-4a32-9a64-f49414d017a6___44dad4026447ff45095aa727ce4daae0.jpg"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
+    <hr>
+    <hr>
+    <hr>
+
+    <div>
+        <table>
+            <tr>
+                <td><img src="franquicia-leaders-1.png" alt=""></td>
+                <td>
+                    <h4>En "<span class="resaltado">CAFÉ MARTÍNEZ</span>" Creemos que el éxito del desarrollo como cadena se debe exclusivamente al éxito de cada franquiciado en particular, por eso hemos creado un sistema de trabajo volcado totalmente a colaborar con el franquiciado en el logro de sus objetivos.</h4>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>NUESTRAS SUCURSALES se seleccionan cuidadosamente, con un sentido definido, en forma consensuada con cada franquiciado, eligiendo estratégicamente su ubicación y muy especialmente al franquiciado que la manejará, para así alcanzar la mayor posibilidad de éxito en cada punto de venta.</h4>
+                </td>
+                <td><img src="franquicia-leaders-2.png" alt=""></td>
+            </tr>
+            <tr>
+                <td><img src="franquicia-leaders-3.png" alt=""></td>
+                <td>
+                    <h4>HOY LA CADENA cuenta con una propuesta de productos que abarca todos los horarios y se adapta a todos los climas y a los diferentes países, con altos estándares de calidad en producto y atención, lo que nos hace una marca altamente competitiva en cualquier parte del mundo.</h4>
+                    
+                </td>
+            </tr>
+        </table>
+
+
+
+
+
+            <script>
+                $(document).ready(function () {
+                    $(".carousel-container").slick({
+                        arrows: false,
+                        autoplay: true,
+                        autoplaySpeed: 3000,
+                        dots: true
+
+                    });
+                });
+            </script>
+
 </body>
+<div class="contenedor">
+    <main class="contenido">
+
+        <!-- Botón de subir -->
+        <a href="#top">
+            <div class="boton-subir">
+                <label for="showScrollButton">
+                    <span>&#8593;</span>
+                </label>
+            </div>
+        </a>
+    </main>
+</div>
 
 </html>
 <footer>
