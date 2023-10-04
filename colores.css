@@ -363,3 +363,55 @@
     font-size: 1rem;
     position: relative;
 }
+
+
+
+
+.Codigo h6 {
+    font-size: 16px; /* Tamaño de letra predeterminado */
+}
+
+.Codigo h6[data-text-length="1"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 1 carácter */
+}
+
+.Codigo h6[data-text-length="2"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 2 caracteres */
+}
+
+.Codigo h6[data-text-length="3"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 3 caracteres */
+}
+
+.Codigo h6[data-text-length="4"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 4 caracteres */
+}
+
+.Codigo h6[data-text-length="5"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 5 caracteres */
+}
+
+.Codigo h6[data-text-length="6"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 6 caracteres */
+}
+
+.Codigo h6[data-text-length="7"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 7 caracteres */
+}
+
+.Codigo h6[data-text-length="8"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 8 caracteres */
+}
+
+.Codigo h6[data-text-length="9"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 9 caracteres */
+}
+
+.Codigo h6[data-text-length="10"] {
+    font-size: 16px; /* Mantener el mismo tamaño de letra para 10 caracteres */
+}
+
+/* Reducir el tamaño de la letra para más de 10 caracteres */
+.Codigo h6[data-text-length="11"] {
+    font-size: 12px; /* Cambiar el tamaño de letra para más de 10 caracteres */
+}
