@@ -514,3 +514,80 @@ h4 {
         /* Tamaño de fuente más pequeño */
     }
 }
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px; /* Cambia este valor al ancho deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.formulario {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    max-width: 1200px; /* Cambia este valor al ancho deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.plataforma {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    max-width: 1200px; /* Cambia este valor al ancho deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: red;
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
