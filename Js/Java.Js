@@ -138,3 +138,33 @@ contenedor.addEventListener('click', () => {
     // Llama a esta función para agregar datos a la hoja de cálculo
     addToGoogleSheet(['Dato1', 'Dato2', 'Dato3']); // Reemplaza con tus datos
 
+
+
+    document.getElementById('export-button').addEventListener('click', function () {
+        const cartItems = document.getElementById('cart-items');
+    
+        if (cartItems.children.length === 0) {
+            alert('El carrito de compras está vacío. Agrega elementos antes de exportar a Excel.');
+            return;
+        }
+    
+        const data = [];
+        // Encabezados de la tabla
+        data.push(['Lista', 'Cod Art', 'Articulo', 'Precio', 'Local']);
+    
+        // Obtener datos de los elementos del carrito
+        const cartRows = cartItems.querySelectorAll('li');
+        cartRows.forEach(function (cartRow) {
+            const itemData = cartRow.textContent.split(', ');
+            data.push(itemData);
+        });
+    
+        // Crear una hoja de cálculo en formato de libro de trabajo
+        const workbook = XLSX.utils.book_new();
+        const worksheet = XLSX.utils.aoa_to_sheet(data);
+        XLSX.utils.book_append_sheet(workbook, worksheet, 'Carrito');
+    
+        // Crear un archivo Excel y descargarlo
+        XLSX.writeFile(workbook, 'carrito_de_compras.xlsx');
+    });
+    
