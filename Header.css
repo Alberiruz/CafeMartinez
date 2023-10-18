@@ -1,32 +1,139 @@
-
-/* Estilos para el menú desplegable */
+/* Estilos iniciales para el menú */
 .dropdown {
-    position: relative;
-    display: inline-block;
+
+  position: relative;
 }
+/* Estilos iniciales para el menú */
+.dropdown {
+  position: relative;
+}
+
+
+/* Mantener el menú desplegable abierto al hacer clic en él en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .dropdown-content.open {
+    display: block;
+  }
+}
+
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+  position: absolute;
+  background-color: #545454;
+  min-width: 200px;
+  border-radius: 10%;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1; /* Aumenta el z-index del menú desplegable */
 }
 
 .dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
+}
+
+/* Estilos para la barra de navegación en pantallas más grandes */
+@media (min-width: 1200px) {
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+
+  
+  .dropdown-content a {
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      color: #333;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+  }
+  
+  .dropdown.active .dropdown-content {
+      display: block;
+  }
+}
+
+
+/* Estilos para el menú grande (pantallas más grandes) */
+.menu-large {
+    display: block; /* Muestra el menú grande en bloque */
+}
+
+.menu-large ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.menu-large li {
+    margin-right: 20px;
+}
+
+.menu-large a {
+    text-decoration: none;
+    color: #bdaaaa; /* Color del texto del menú */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold;
+}
+
+.menu-large a:hover {
+    color: #555; /* Cambia el color al pasar el cursor sobre el enlace */
+}
+
+
+
+
+/* Estilos para el menú grande (pantallas más grandes) */
+.menu-large {
+  display: block; /* Muestra el menú grande en bloque */
+}
+
+/* Estilos para el menú pequeño (pantallas más pequeñas) */
+.menu-small {
+  display: none; /* Oculta el menú pequeño por defecto */
+}
+
+/* Mostrar el menú pequeño en línea cuando el tamaño de la pantalla sea menor a 1200px */
+@media (max-width: 1199px) {
+  .menu-large {
+      display: none; /* Oculta el menú grande */
+  }
+  .menu-small {
+      display: block; /* Muestra el menú pequeño en bloque */
+  }
+}
+
+
+
+
+/* Estilos de la barra de navegación en pantallas más grandes */
+@media (min-width: 1200px) {
+  .dropdown-content ul {
+      display: flex;
+  }
+
+  .dropdown-content li {
+      margin-right: 20px;
+  }
+
+  .dropdown-content li:last-child {
+      margin-right: 0;
+  }
 }
 
 

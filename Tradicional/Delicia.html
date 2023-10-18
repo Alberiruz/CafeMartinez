@@ -29,379 +29,334 @@
         </div>
    
 
-   
-        <nav class="dropdown">
-            <ul>
-                <div class="dropdown">
-                    <button class="dropdown-btn">LISTAS</button>
-                    <div class="dropdown-content">
-                        <a href="../index.html">INICIO</a>
-                        <a href="../Tradicional/Cafeteria.html">TRADICIONAL</a>
-                        <a href="../SMART.html">SMART</a>
-                        <a href="../A La Barra.html">ALB</a>
-                        <a href="../peya.html">PEYA</a>
-                    </div>
-                </div>
-            </ul>
-        </nav>
-   
+   <!-- Menú tradicional para pantallas más grandes (mayores o iguales a 1200px) -->
+<nav class="menu-large">
+    <ul>
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="../Tradicional/Cafeteria.html">TRADICIONAL</a></li>
+        <li><a href="../SMART.html">SMART</a></li>
+        <li><a href="../A La Barra.html">ALB</a></li>
+        <li><a href="../peya.html">PEYA</a></li>
+    </ul>
+</nav>
+
+
+
+<nav class="menu-small">
+    <div class="dropdown">
+        <button class="dropdown-btn" id="menuButton">MENÚ</button>
+        <div class="dropdown-content">
+            <a href="../index.html">INICIO</a>
+            <a href="../Tradicional/Cafeteria.html">TRADICIONAL</a>
+            <a href="../SMART.html">SMART</a>
+            <a href="../A La Barra.html">ALB</a>
+            <a href="../peya.html">PEYA</a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const menuButton = document.getElementById("menuButton");
+        const dropdownContent = document.querySelector(".dropdown-content");
+        let isOpen = false; // Variable para rastrear el estado del menú
+
+        menuButton.addEventListener("mouseenter", function(e) {
+            if (!isOpen) {
+                dropdownContent.style.display = "block";
+                dropdownContent.style.opacity = 1;
+                dropdownContent.style.pointerEvents = "auto";
+                isOpen = true; // Abre el menú en la primera interacción
+            } else {
+                dropdownContent.style.display = "none";
+                dropdownContent.style.opacity = 0;
+                dropdownContent.style.pointerEvents = "none";
+                isOpen = false; // Cierra el menú en la segunda interacción
+            }
+        });
+    });
+</script>
 
 
 </header>
 
-    <!-- Espacio pagina -->
+<!-- Espacio pagina -->
 
-    </div>
+</div>
 
 
 
-    <div class="contenedor">
-        <main class="contenido">
-            <div class="fila">
-                <div class="contenido-favorito">
-                    <h5>Opciones</h5>
-                </div>
-                <div class="rojo">
-                    <a href="../Tradicional/Cafeteria.html">
-                        <h5>Cafeteria</h5>
-                    </a>
-                </div>
-                <div class="azul">
-                    <a href="../Tradicional/Sugerencias.html">
-                        <h5>Sugerencias</h5>
-                    </a>
-                </div>
-                <div class="amarillo">
-                    <a href="../Tradicional/MediaTostFac.html">
-                        <h6>Medialunas tostadas Facturas</h6>
-                    </a>
-                </div>
-                <div class="rosado">
-                    <a href="../Tradicional/AdiDif.html">
-                        <h6>Adicionales & Diferencias</h6>
-                    </a>
-                </div>
-                <div class="turquesa">
-                    <a href="../Tradicional/AlCena.html">
-                        <h6>Almuerzo Cenas</h6>
-                    </a>
-                </div>
-                <div class="negro">
-                    <a href="../Tradicional/Sandwiches.html">
-                        <h5>Sandwiches</h5>
-                    </a>
-                </div>
-                <div class="rojo ">
-                    <a href="../Tradicional/Gaseosas.html">
-                        <h6>Gaseosas & Aguas Saborizadas</h6>
-                    </a>
-                </div>
-                <div class="rosado">
-                    <a href="../Tradicional/StaccKosher.html">
-                        <h6>Stacc Kosher</h6>
-                    </a>
-                </div>
-                <div class="cyanclaro">
-                    <a href="../Tradicional/MuebleEx.html">
-                        <h6>Mueble Express</h6>
-                    </a>
-                </div>
-                <div class="blanco">
-                    <a href="../Tradicional/Mercha.html">
-                        <h5>Merchandising</h5>
-                    </a>
-                </div>
-                <div class="blanco">
-                    <a href="../Tradicional/Molienda.html">
-                        <h5>Molienda</h5>
-                    </a>
-                </div>
-                <div class="verde">
-                    <a href="../Tradicional/Torta.html">
-                        <h5>Tortas</h5>
-                    </a>
-                </div>
-                <div class="verdeclaro">
-                    <a href="../Tradicional/Delicia.html">
-                        <h5>Delicias</h5>
-                    </a>
-                </div>
-                <div class="negro">
-                    <a href="../Tradicional/JugosLiGra.html">
-                        <h6>Jugos Licuados Granizados</h6>
-                    </a>
-                </div>
-                <div class="negro">
-                    <a href="../Tradicional/Almacen.html">
-                        <h5>Almacen</h5>
-                    </a>
-                </div>
-                <div class="marron">
-                    <a href="../Tradicional/BebAlc.html">
-                        <h6>Bebidas con Alcohol</h6>
-                    </a>
-                </div>
+<div class="contenedor">
+    <main class="contenido">
+        <div class="fila">
+            <div class="contenido-favorito">
+                <h5>Opciones</h5>
             </div>
-
-            <br>
-            <hr>
-            <br>
-            <div class="fila">
-
-                <div class="azul" onclick="autocompletar('248', 'Ensalada de Fruta')">
-                    <div class="Codigo">
-                        <h6>248</h6>
-                    </div>
-                    <h6>Ensalada de Fruta</h6>
-                </div>
-                
-                <div class="verde" onclick="autocompletar('723', 'Yogur con Frutas Naturales')">
-                    <div class="Codigo">
-                        <h6>723</h6>
-                    </div>
-                    <h6>Yogur con Frutas Naturales</h6>
-                </div>
-                
-                <div class="naranja" onclick="autocompletar('2790', 'Yogur con Salsa Maracuya')">
-                    <div class="Codigo">
-                        <h6>2790</h6>
-                    </div>
-                    <h6>Yogur con Salsa Maracuya</h6>
-                </div>
-                
-                <div class="azul" onclick="autocompletar('2791', 'Yogur con Salsa Frutos Rojos')">
-                    <div class="Codigo">
-                        <h6>2791</h6>
-                    </div>
-                    <h6>Yogur con Salsa Frutos Rojos</h6>
-                </div>
-                
-                <div class="verde" onclick="autocompletar('3035', 'Yogurt con Arand/Frutilla/Miel/Granola')">
-                    <div class="Codigo">
-                        <h6>3035</h6>
-                    </div>
-                    <h6>Yogurt con Arand/Frutilla/Miel/Granola</h6>
-                </div>
-                
-                <div class="naranja" onclick="autocompletar('3879', 'Postre Matilda')">
-                    <div class="Codigo">
-                        <h6>3879</h6>
-                    </div>
-                    <h6>Postre Matilda</h6>
-                </div>
-                
-                <div class="azul" onclick="autocompletar('4341', 'Postre Matilda DDL')">
-                    <div class="Codigo">
-                        <h6>4341</h6>
-                    </div>
-                    <h6>Postre Matilda DDL</h6>
-                </div>
-                
-                <div class="verde" onclick="autocompletar('4346', 'Roll de Nutella')">
-                    <div class="Codigo">
-                        <h6>4346</h6>
-                    </div>
-                    <h6>Roll de Nutella</h6>
-                </div>
-                <div class="azul" onclick="autocompletar('3198', 'Franui Semi Amargo')">
-                    <div class="Codigo">
-                        <h6>3198</h6>
-                    </div>
-                    <h6>Franui Semi Amargo</h6>
-                </div>
-                
-                <div class="verde" onclick="autocompletar('3199', 'Franui Choco C/Leche')">
-                    <div class="Codigo">
-                        <h6>3199</h6>
-                    </div>
-                    <h6>Franui Choco C/Leche</h6>
-                </div>
-                
-                <div class="naranja" onclick="autocompletar('179', 'Alfajor de Manteca')">
-                    <div class="Codigo">
-                        <h6>179</h6>
-                    </div>
-                    <h6>Alfajor de Manteca</h6>
-                </div>
-                
-                <div class="azul" onclick="autocompletar('188', 'Budin')">
-                    <div class="Codigo">
-                        <h6>188</h6>
-                    </div>
-                    <h6>Budin</h6>
-                </div>
-                
-                <div class="verde" onclick="autocompletar('241', 'Muffin')">
-                    <div class="Codigo">
-                        <h6>241</h6>
-                    </div>
-                    <h6>Muffin</h6>
-                </div>
-                
-                <div class="naranja" onclick="autocompletar('479', 'Pasta Frola')">
-                    <div class="Codigo">
-                        <h6>479</h6>
-                    </div>
-                    <h6>Pasta Frola</h6>
-                </div>
-                
-                <div class="azul" onclick="autocompletar('1936', 'Delicia')">
-                    <div class="Codigo">
-                        <h6>1936</h6>
-                    </div>
-                    <h6>Delicia</h6>
-                </div>
-                
-                <div class="verde" onclick="autocompletar('2470', 'Mini Cake')">
-                    <div class="Codigo">
-                        <h6>2470</h6>
-                    </div>
-                    <h6>Mini Cake</h6>
-                </div>
-                                
+            <div class="rojo">
+                <a href="../Tradicional/Cafeteria.html">
+                    <h5>Cafeteria</h5>
+                </a>
             </div>
-    </div>
-
-
-
-
-    <!-- Funcion -->
-
-    <!--FIN Funcion -->
-
-    <div class="container">
-        <div class="formulario">
-            <form class="contact-form" action="">
-                <fieldset>
-                    <div class="form-group">
-                        <label for="Lista">Lista:</label>
-                        <select name="Lista" id="ListaForm" required>
-                            <option value="" disabled selected>Selecciona una lista</option>
-                            <option value="Lista C">Lista C</option>
-                            <option value="Lista B">Lista B</option>
-                            <option value="Lista B1">Lista B1</option>
-                            <option value="Lista A1">Lista A1</option>
-                            <option value="Lista A2">Lista A2</option>
-                            <!-- Agrega más opciones aquí -->
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="Plataforma">Plataforma:</label>
-                        <select name="Plataforma" id="PlataformaForm" required>
-                            <option value="" disabled selected>Selecciona una plataforma</option>
-                            <option value="ICG">ICG</option>
-                            <option value="Foster">Foster</option>
-                            <option value="Menu Digital">Menu Digital</option>
-                            <option value="Menu QR">Menu QR</option>
-                            <option value="Club">Club</option>
-                            <!-- Agrega más opciones aquí -->
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="CodArt">Cod Art:</label>
-                        <input type="text" name="CodArt" id="CodArtForm" placeholder="Se autocompleta...." readonly required>
-                    </div>
-                    <div class="form-group">
-                        <label for="Articulo">Articulo:</label>
-                        <input type="text" name="Articulo" id="ArticuloForm" placeholder="Se autocompleta..." readonly required>
-                    </div>
-                    <div class="form-group">
-                        <label for="Precio">Precio:</label>
-                        <input type="number" name="Precio" id="PrecioForm" placeholder="Ingrese el precio correcto..." required>
-                    </div>
-                    <div class="form-group">
-                        <label for="Local">Local:</label>
-                        <input type="text" name="Local" id="LocalForm" placeholder="Nombre del local..." required>
-                    </div>
-                    <button type="button" class="submit-button" onclick="addToCart()">Agregar al carrito</button>
-                </fieldset>
-            </form>
+            <div class="azul">
+                <a href="../Tradicional/Sugerencias.html">
+                    <h5>Sugerencias</h5>
+                </a>
+            </div>
+            <div class="amarillo">
+                <a href="../Tradicional/MediaTostFac.html">
+                    <h6>Medialunas tostadas Facturas</h6>
+                </a>
+            </div>
+            <div class="rosado">
+                <a href="../Tradicional/AdiDif.html">
+                    <h6>Adicionales & Diferencias</h6>
+                </a>
+            </div>
+            <div class="turquesa">
+                <a href="../Tradicional/AlCena.html">
+                    <h6>Almuerzo Cenas</h6>
+                </a>
+            </div>
+            <div class="negro">
+                <a href="../Tradicional/Sandwiches.html">
+                    <h5>Sandwiches</h5>
+                </a>
+            </div>
+            <div class="rojo ">
+                <a href="../Tradicional/Gaseosas.html">
+                    <h6>Gaseosas & Aguas Saborizadas</h6>
+                </a>
+            </div>
+            <div class="rosado">
+                <a href="../Tradicional/StaccKosher.html">
+                    <h6>Stacc Kosher</h6>
+                </a>
+            </div>
+            <div class="cyanclaro">
+                <a href="../Tradicional/MuebleEx.html">
+                    <h6>Mueble Express</h6>
+                </a>
+            </div>
+            <div class="blanco">
+                <a href="../Tradicional/Mercha.html">
+                    <h5>Merchandising</h5>
+                </a>
+            </div>
+            <div class="blanco">
+                <a href="../Tradicional/Molienda.html">
+                    <h5>Molienda</h5>
+                </a>
+            </div>
+            <div class="verde">
+                <a href="../Tradicional/Torta.html">
+                    <h5>Tortas</h5>
+                </a>
+            </div>
+            <div class="verdeclaro">
+                <a href="../Tradicional/Delicia.html">
+                    <h5>Delicias</h5>
+                </a>
+            </div>
+            <div class="negro">
+                <a href="../Tradicional/JugosLiGra.html">
+                    <h6>Jugos Licuados Granizados</h6>
+                </a>
+            </div>
+            <div class="negro">
+                <a href="../Tradicional/Almacen.html">
+                    <h5>Almacen</h5>
+                </a>
+            </div>
+            <div class="marron">
+                <a href="../Tradicional/BebAlc.html">
+                    <h6>Bebidas con Alcohol</h6>
+                </a>
+            </div>
         </div>
-        <div class="plataforma">
+
+        <br>
+        <hr>
+        <br>
+        <div class="fila">
+
+            <div class="azul" onclick="autocompletar('730', 'Porcion de Torta')">
+                <div class="Codigo">
+                    <h6>730</h6>
+                </div>
+                <h6>Porcion de Torta</h6>
+            </div>
+
+            <div class="verde" onclick="autocompletar('731', 'Media Torta')">
+                <div class="Codigo">
+                    <h6>731</h6>
+                </div>
+                <h6>Media Torta</h6>
+            </div>
+
+            <div class="naranja" onclick="autocompletar('732', 'Torta Entera')">
+                <div class="Codigo">
+                    <h6>732</h6>
+                </div>
+                <h6>Torta Entera</h6>
+            </div>
+
+        </div>
+</div>
+
+
+
+
+<!-- Funcion -->
+
+<!--FIN Funcion -->
+<div class="container">
+    <div class="formulario">
+        <form class="contact-form" action="">
             <fieldset>
-                <legend>Carrito de compras</legend>
-                <ul id="cart-items">
-                    <!-- Los elementos seleccionados se mostrarán aquí -->
-                </ul>
+                <div class="form-group">
+                    <label for="Lista">Lista:</label>
+                    <select name="Lista" id="ListaForm" required>
+                        <option value="" disabled selected>Selecciona una lista</option>
+                        <option value="Lista C">Lista C</option>
+                        <option value="Lista B">Lista B</option>
+                        <option value="Lista B1">Lista B1</option>
+                        <option value="Lista A1">Lista A1</option>
+                        <option value="Lista A2">Lista A2</option>
+                        <!-- Agrega más opciones aquí -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Plataforma">Plataforma:</label>
+                    <select name="Plataforma" id="PlataformaForm" required>
+                        <option value="" disabled selected>Selecciona una plataforma</option>
+                        <option value="ICG">ICG</option>
+                        <option value="Foster">Foster</option>
+                        <option value="Menu Digital">Menu Digital</option>
+                        <option value="Menu QR">Menu QR</option>
+                        <option value="Club">Club</option>
+                        <!-- Agrega más opciones aquí -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="CodArt">Cod Art:</label>
+                    <input type="text" name="CodArt" id="CodArtForm" placeholder="Se autocompleta...." readonly required>
+                </div>
+                <div class="form-group">
+                    <label for="Articulo">Articulo:</label>
+                    <input type="text" name="Articulo" id="ArticuloForm" placeholder="Se autocompleta..." readonly required>
+                </div>
+                <div class="form-group">
+                    <label for="Precio">Precio:</label>
+                    <input type="number" name="Precio" id="PrecioForm" placeholder="Ingrese el precio correcto..." required>
+                </div>
+                <div class="form-group">
+                    <label for="Local">Local:</label>
+                    <input type="text" name="Local" id="LocalForm" placeholder="Nombre del local..." required>
+                </div>
+                <button type="button" class="submit-button" onclick="addToCart()">Agregar al carrito</button>
             </fieldset>
-        </div>
+        </form>
     </div>
-    
-    <script>
-        const cartItems = document.getElementById('cart-items');
-        const addToCartButton = document.querySelector('.submit-button');
-    
-        addToCartButton.disabled = true; // El botón estará deshabilitado hasta que se completen todos los campos.
-    
-        function addToCart() {
+    <div class="plataforma">
+        <fieldset>
+            <legend>Carrito de compras</legend>
+            <ul id="cart-items">
+                <!-- Los elementos seleccionados se mostrarán aquí -->
+            </ul>
+            
+            <button id="export-button" class="submit-button" style="margin-top: 10px;">Exportar a Excel</button>
+
+        </fieldset>
+    </div>
+</div>
+
+<script>
+    const cartItems = document.getElementById('cart-items');
+    const addToCartButton = document.querySelector('.submit-button');
+
+    addToCartButton.disabled = true; // El botón estará deshabilitado hasta que se completen todos los campos.
+
+    function addToCart() {
+    const lista = document.getElementById('ListaForm').value;
+    const codArt = document.getElementById('CodArtForm').value;
+    const articulo = document.getElementById('ArticuloForm').value;
+    const precio = document.getElementById('PrecioForm').value;
+    const local = document.getElementById('LocalForm').value;
+
+    if (lista && codArt && articulo && precio && local) {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = ` ${lista}, Cod Art: ${codArt}, ${articulo}, <span class="price"> ${precio}</span>, ${local}`;
+        cartItems.appendChild(listItem);
+
+        // Borra solo los campos de "Código", "Artículo" y "Precio"
+        document.getElementById('CodArtForm').value = '';
+        document.getElementById('ArticuloForm').value = '';
+        document.getElementById('PrecioForm').value = '';
+
+        addToCartButton.disabled = true; // Deshabilita el botón después de agregar al carrito
+    } else {
+        alert('Por favor, complete todos los campos antes de agregar al carrito.');
+    }
+}
+
+    // Habilita el botón cuando todos los campos estén completos
+    document.getElementById('ListaForm').addEventListener('input', enableButton);
+    document.getElementById('CodArtForm').addEventListener('input', enableButton);
+    document.getElementById('ArticuloForm').addEventListener('input', enableButton);
+    document.getElementById('PrecioForm').addEventListener('input', enableButton);
+    document.getElementById('LocalForm').addEventListener('input', enableButton);
+
+    function enableButton() {
         const lista = document.getElementById('ListaForm').value;
         const codArt = document.getElementById('CodArtForm').value;
         const articulo = document.getElementById('ArticuloForm').value;
         const precio = document.getElementById('PrecioForm').value;
         const local = document.getElementById('LocalForm').value;
-    
+
         if (lista && codArt && articulo && precio && local) {
-            const listItem = document.createElement('li');
-            listItem.innerHTML = ` ${lista}, Cod Art: ${codArt}, ${articulo}, <span class="price"> ${precio}</span>, ${local}`;
-            cartItems.appendChild(listItem);
-    
-            // Borra solo los campos de "Código", "Artículo" y "Precio"
-            document.getElementById('CodArtForm').value = '';
-            document.getElementById('ArticuloForm').value = '';
-            document.getElementById('PrecioForm').value = '';
-    
-            addToCartButton.disabled = true; // Deshabilita el botón después de agregar al carrito
+            addToCartButton.disabled = false;
         } else {
-            alert('Por favor, complete todos los campos antes de agregar al carrito.');
+            addToCartButton.disabled = true;
         }
     }
+
+    // Función para autocompletar los campos del formulario
+    function autocompletar(codigo, nombre) {
+        const formularioArticuloSpan = document.getElementById('ArticuloForm');
+        const formularioCodArt = document.getElementById('CodArtForm');
+
+        // Actualiza los campos del formulario con los valores
+        formularioArticuloSpan.value = nombre;
+        formularioCodArt.value = codigo;
+    }
+
     
-        // Habilita el botón cuando todos los campos estén completos
-        document.getElementById('ListaForm').addEventListener('input', enableButton);
-        document.getElementById('CodArtForm').addEventListener('input', enableButton);
-        document.getElementById('ArticuloForm').addEventListener('input', enableButton);
-        document.getElementById('PrecioForm').addEventListener('input', enableButton);
-        document.getElementById('LocalForm').addEventListener('input', enableButton);
-    
-        function enableButton() {
-            const lista = document.getElementById('ListaForm').value;
-            const codArt = document.getElementById('CodArtForm').value;
-            const articulo = document.getElementById('ArticuloForm').value;
-            const precio = document.getElementById('PrecioForm').value;
-            const local = document.getElementById('LocalForm').value;
-    
-            if (lista && codArt && articulo && precio && local) {
-                addToCartButton.disabled = false;
-            } else {
-                addToCartButton.disabled = true;
-            }
-        }
-    
-        // Función para autocompletar los campos del formulario
-        function autocompletar(codigo, nombre) {
-            const formularioArticuloSpan = document.getElementById('ArticuloForm');
-            const formularioCodArt = document.getElementById('CodArtForm');
-    
-            // Actualiza los campos del formulario con los valores
-            formularioArticuloSpan.value = nombre;
-            formularioCodArt.value = codigo;
-        }
-    </script>
-    </main>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.4/xlsx.full.min.js"></script>
+</main>
 
 
 
-    <!-- Botón de subir -->
-    <a href="#top">
-        <div class="boton-subir">
-            <label for="showScrollButton">
-                <span>&#8593;</span>
-            </label>
-        </div>
-    </a>
+<!-- Botón de subir -->
+<a href="#top">
+    <div class="boton-subir">
+        <label for="showScrollButton">
+            <span>&#8593;</span>
+        </label>
+    </div>
+</a>
 
 
 </html>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -723,148 +678,143 @@
 </footer>
 
 <!-- FIN FOOTER -->
+
+<!--Autenticacion-->
 <p>Sheets API Quickstart</p>
 
-<!--Add buttons to initiate auth sequence and sign out-->
-<button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
-<button id="signout_button" onclick="handleSignoutClick()">Sign Out</button>
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
+    <button id="signout_button" onclick="handleSignoutClick()">Sign Out</button>
 
-<pre id="content" style="white-space: pre-wrap;"></pre>
 
-<script type="text/javascript">
-  /* exported gapiLoaded */
-  /* exported gisLoaded */
-  /* exported handleAuthClick */
-  /* exported handleSignoutClick */
+    <script type="text/javascript">
+  
+      const CLIENT_ID = '720675941699-dtvpkth2m7mecps89rbvcdle0r4u7t7j.apps.googleusercontent.com';
+      const API_KEY = 'AIzaSyBuGUD3p1JVLWTrFom1vFSY209cwLmukRo';
 
-  // TODO(developer): Set to client ID and API key from the Developer Console
-  const CLIENT_ID = '<YOUR_CLIENT_ID>';
-  const API_KEY = '<YOUR_API_KEY>';
+      // Discovery doc URL for APIs used by the quickstart
+      const DISCOVERY_DOC = 'https://sheets.googleapis.com/$discovery/rest?version=v4';
 
-  // Discovery doc URL for APIs used by the quickstart
-  const DISCOVERY_DOC = 'https://sheets.googleapis.com/$discovery/rest?version=v4';
+      // Authorization scopes required by the API; multiple scopes can be
+      // included, separated by spaces.
+      const SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly';
 
-  // Authorization scopes required by the API; multiple scopes can be
-  // included, separated by spaces.
-  const SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly';
+      let tokenClient;
+      let gapiInited = false;
+      let gisInited = false;
 
-  let tokenClient;
-  let gapiInited = false;
-  let gisInited = false;
-
-  document.getElementById('authorize_button').style.visibility = 'hidden';
-  document.getElementById('signout_button').style.visibility = 'hidden';
-
-  /**
-   * Callback after api.js is loaded.
-   */
-  function gapiLoaded() {
-    gapi.load('client', initializeGapiClient);
-  }
-
-  /**
-   * Callback after the API client is loaded. Loads the
-   * discovery doc to initialize the API.
-   */
-  async function initializeGapiClient() {
-    await gapi.client.init({
-      apiKey: API_KEY,
-      discoveryDocs: [DISCOVERY_DOC],
-    });
-    gapiInited = true;
-    maybeEnableButtons();
-  }
-
-  /**
-   * Callback after Google Identity Services are loaded.
-   */
-  function gisLoaded() {
-    tokenClient = google.accounts.oauth2.initTokenClient({
-      client_id: CLIENT_ID,
-      scope: SCOPES,
-      callback: '', // defined later
-    });
-    gisInited = true;
-    maybeEnableButtons();
-  }
-
-  /**
-   * Enables user interaction after all libraries are loaded.
-   */
-  function maybeEnableButtons() {
-    if (gapiInited && gisInited) {
-      document.getElementById('authorize_button').style.visibility = 'visible';
-    }
-  }
-
-  /**
-   *  Sign in the user upon button click.
-   */
-  function handleAuthClick() {
-    tokenClient.callback = async (resp) => {
-      if (resp.error !== undefined) {
-        throw (resp);
-      }
-      document.getElementById('signout_button').style.visibility = 'visible';
-      document.getElementById('authorize_button').innerText = 'Refresh';
-      await listMajors();
-    };
-
-    if (gapi.client.getToken() === null) {
-      // Prompt the user to select a Google Account and ask for consent to share their data
-      // when establishing a new session.
-      tokenClient.requestAccessToken({prompt: 'consent'});
-    } else {
-      // Skip display of account chooser and consent dialog for an existing session.
-      tokenClient.requestAccessToken({prompt: ''});
-    }
-  }
-
-  /**
-   *  Sign out the user upon button click.
-   */
-  function handleSignoutClick() {
-    const token = gapi.client.getToken();
-    if (token !== null) {
-      google.accounts.oauth2.revoke(token.access_token);
-      gapi.client.setToken('');
-      document.getElementById('content').innerText = '';
-      document.getElementById('authorize_button').innerText = 'Authorize';
+      document.getElementById('authorize_button').style.visibility = 'hidden';
       document.getElementById('signout_button').style.visibility = 'hidden';
-    }
-  }
 
-  /**
-   * Print the names and majors of students in a sample spreadsheet:
-   * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-   */
-  async function listMajors() {
-    let response;
-    try {
-      // Fetch first 10 files
-      response = await gapi.client.sheets.spreadsheets.values.get({
-        spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
-        range: 'Class Data!A2:E',
-      });
-    } catch (err) {
-      document.getElementById('content').innerText = err.message;
-      return;
-    }
-    const range = response.result;
-    if (!range || !range.values || range.values.length == 0) {
-      document.getElementById('content').innerText = 'No values found.';
-      return;
-    }
-    // Flatten to string to display
-    const output = range.values.reduce(
-        (str, row) => `${str}${row[0]}, ${row[4]}\n`,
-        'Name, Major:\n');
-    document.getElementById('content').innerText = output;
-  }
-</script>
-<script async defer src="https://apis.google.com/js/api.js" onload="gapiLoaded()"></script>
-<script async defer src="https://accounts.google.com/gsi/client" onload="gisLoaded()"></script>
+      /**
+       * Callback after api.js is loaded.
+       */
+      function gapiLoaded() {
+        gapi.load('client', initializeGapiClient);
+      }
 
+      /**
+       * Callback after the API client is loaded. Loads the
+       * discovery doc to initialize the API.
+       */
+      async function initializeGapiClient() {
+        await gapi.client.init({
+          apiKey: API_KEY,
+          discoveryDocs: [DISCOVERY_DOC],
+        });
+        gapiInited = true;
+        maybeEnableButtons();
+      }
+
+      /**
+       * Callback after Google Identity Services are loaded.
+       */
+      function gisLoaded() {
+        tokenClient = google.accounts.oauth2.initTokenClient({
+          client_id: CLIENT_ID,
+          scope: SCOPES,
+          callback: '', // defined later
+        });
+        gisInited = true;
+        maybeEnableButtons();
+      }
+
+      /**
+       * Enables user interaction after all libraries are loaded.
+       */
+      function maybeEnableButtons() {
+        if (gapiInited && gisInited) {
+          document.getElementById('authorize_button').style.visibility = 'visible';
+        }
+      }
+
+      /**
+       *  Sign in the user upon button click.
+       */
+      function handleAuthClick() {
+        tokenClient.callback = async (resp) => {
+          if (resp.error !== undefined) {
+            throw (resp);
+          }
+          document.getElementById('signout_button').style.visibility = 'visible';
+          document.getElementById('authorize_button').innerText = 'Refresh';
+          await listMajors();
+        };
+
+        if (gapi.client.getToken() === null) {
+          // Prompt the user to select a Google Account and ask for consent to share their data
+          // when establishing a new session.
+          tokenClient.requestAccessToken({prompt: 'consent'});
+        } else {
+          // Skip display of account chooser and consent dialog for an existing session.
+          tokenClient.requestAccessToken({prompt: ''});
+        }
+      }
+
+      /**
+       *  Sign out the user upon button click.
+       */
+      function handleSignoutClick() {
+        const token = gapi.client.getToken();
+        if (token !== null) {
+          google.accounts.oauth2.revoke(token.access_token);
+          gapi.client.setToken('');
+          document.getElementById('content').innerText = '';
+          document.getElementById('authorize_button').innerText = 'Authorize';
+          document.getElementById('signout_button').style.visibility = 'hidden';
+        }
+      }
+
+      /**
+       * Print the names and majors of students in a sample spreadsheet:
+       * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
+       */
+      async function listMajors() {
+        let response;
+        try {
+          // Fetch first 10 files
+          response = await gapi.client.sheets.spreadsheets.values.get({
+            spreadsheetId: '1ItA3Tu1RcMl0VIL_BiLq7Ndp4pPCugUFq8Mgm_MA_Gs',
+            range: 'Mapping!A:e',
+          });
+        } catch (err) {
+            console.error(err)
+      
+          return;
+        }
+        const range = response.result;
+        if (!range || !range.values || range.values.length == 0) {
+            console.warn("No se Encontraron Errores")
+              return;
+        }
+
+        console.log(range.value)
+  
+      }
+    </script>
+    <script async defer src="https://apis.google.com/js/api.js" onload="gapiLoaded()"></script>
+    <script async defer src="https://accounts.google.com/gsi/client" onload="gisLoaded()"></script>
+ 
 </body>
 
 </html>

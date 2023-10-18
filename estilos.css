@@ -1,111 +1,144 @@
-     /* Estilos generales */
-     body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-    }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
-    /* Estilo para el contenedor principal */
-    .container {
-        display: flex;
-        max-width: 900px; /* Ancho máximo del formulario */
-        margin: 0 auto; /* Centrar el formulario horizontalmente */
-        background: #fff;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        padding: 20px;
-        margin-top: 10px;
-    }
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 10px;
+}
 
-    /* Estilos para el formulario */
-    .formulario,
-    .plataforma {
-        flex: 1;
-        margin: 0 10px;
-    }
+/* Estilos para el formulario */
+.formulario,
+.plataforma {
+    flex: 1;
+    margin: 0 10px;
+}
 
-    .formulario form,
-    .plataforma form {
-        background: #fff;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+.formulario form,
+.plataforma form {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-    .formulario legend,
-    .plataforma legend {
-        font-weight: bold;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+.formulario legend,
+.plataforma legend {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
-    .form-group {
-        margin-bottom: 20px;
-    }
+.form-group {
+    margin-bottom: 20px;
+}
 
-    .formulario label,
-    .plataforma label {
-        font-weight: bold;
-        display: block;
-        margin-bottom: 5px;
-    }
+.formulario label,
+.plataforma label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
 
-    .formulario input[type="text"],
-    .formulario input[type="number"],
-    .formulario input[type="email"],
-    .formulario textarea,
-    .formulario input[type="radio"],
-    .plataforma input[type="radio"] {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="email"],
+.formulario textarea,
+.formulario input[type="radio"],
+.plataforma input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4d3232;
+    border-radius: 4px;
+}
 
-    .formulario .radio-group,
-    .plataforma .radio-group {
-        display: flex;
-        flex-direction: column;
-    }
+.formulario .radio-group,
+.plataforma .radio-group {
+    display: flex;
+    flex-direction: column;
+}
 
-    .formulario input[type="radio"],
-    .plataforma input[type="radio"] {
-        margin-bottom: 5px;
-    }
+.formulario input[type="radio"],
+.plataforma input[type="radio"] {
+    margin-bottom: 5px;
+}
 
-    .formulario .submit-button,
-    .plataforma .submit-button {
-        background: #007BFF;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-weight: bold;
-        transition: background 0.3s ease;
-        width: 100%;
-    }
+.formulario .submit-button,
+.plataforma .submit-button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    width: 100%;
+}
 
-    .formulario .submit-button:hover,
-    .plataforma .submit-button:hover {
-        background: #0056b3;
-    }
+.formulario .submit-button:hover,
+.plataforma .submit-button:hover {
+    background: #b30000;
+}
 
+/* Estilo para el precio en color rojo */
+#cart-items li .price {
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
 
+/* Estilo para el código del artículo */
+#cart-items li .item-code {
+    color: #000000; /* Color de texto más oscuro (casi negro) */
+   
+    font-size: 1 rem; /* Tamaño de fuente ligeramente más grande */
+}
 
+/* Estilo para el nombre del artículo */
+#cart-items li .item-name {
+    color: #000000; /* Color de texto más oscuro (casi negro) */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1 rem; /* Tamaño de fuente ligeramente más grande */
+}
 
+/* Estilo para elementos dentro del carrito */
+#carrito .item {
+    color: red; /* o el color deseado, en este caso, rojo */
+    font-weight: bold;
+}
 
+/* Estilo para el botón "Agregar al carrito" y "Exportar a Excel" */
+.submit-button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    width: 100%;
+    margin-top: 10px; /* Agrega espacio entre los botones */
+}
 
-
-
-
-
-
-
+.submit-button:hover {
+    background: #b30000;
+}
 
 
 
@@ -155,16 +188,11 @@
     align-items: center;
 }
 
-
-
-
-
 /* Estilos para el botón de subir en hover */
 .boton-subir label:hover {
     background-color: #4254b5;
     /* Cambia el color al pasar el cursor sobre el botón */
 }
-
 
 /* Estilos CSS generales */
 * {
@@ -205,7 +233,6 @@
     border-radius: 4px;
 }
 
-
 .contenedor .contenido {
     grid-area: contenido;
 }
@@ -228,7 +255,7 @@
 .fila {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-gap: 1%
+    grid-gap: 1%;
 }
 
 /* Estilos para los contenidos */
@@ -256,46 +283,12 @@
 }
 
 
-
-.carousel-container {
-    width: 100%;
-}
-
-.carousel-item {
-    width: 101%;
-    height: 575px;
-    /* Establece el alto fijo para todos los elementos del carrusel */
-    /* align-items: center;
-    justify-content: center;
-    overflow: hidden;  */
-}
-
-.carousel-item img,
-.carousel-item iframe {
-    width: 101%;
-    height: 575px;
-    /* align-items: center;
-    justify-content: center; */
-
-}
-
-
-
-.carousel-container .slick-prev,
-.carousel-container .slick-next {
-    display: none;
-}
-
-
-
 .fullscreen-container {
     display: flex;
-
 }
 
 .fullscreen-iframe {
     flex: 12;
-
 }
 
 /* Estilos generales para la tabla */
@@ -309,46 +302,38 @@ td {
     padding: 10px;
     text-align: center;
     border: none;
-    /* Elimina el borde de las celdas */
 }
 
 /* Estilos para las imágenes */
 img {
     max-width: 200px;
-    /* Tamaño máximo de las imágenes */
     height: auto;
     border: none;
-    /* Elimina el borde de las imágenes */
     display: block;
     margin: 0 auto;
-    /* Centra las imágenes horizontalmente */
 }
+
 
 /* Estilos para los encabezados h4 */
 h4 {
     font-size: 24px;
-    /* Tamaño de fuente más grande para los encabezados h4 */
     color: #1f1d1d;
-    /* Color de fuente para resaltar */
 }
 
 /* Estilos para resaltar "Café Martínez" */
 .resaltado {
     color: #0e0d0d;
-    /* Color de fuente para resaltar */
     font-weight: bold;
-    /* Texto en negrita para resaltar */
 }
 
 /* Estilos CSS para centrar texto en las etiquetas h5 dentro de las celdas */
-
 .contenido-menu,
 .Recuadro-Leyenda,
 .contenido-favorito,
 .rojo,
 .azul,
-.codigo,
 .verde,
+.codigo,
 .amarillo,
 .naranja,
 .morado,
@@ -380,50 +365,38 @@ h4 {
 .celeste,
 .beige,
 .rosado h5,
-.contenedor .pie {
+.contenedor .pie,
+.carousel-item img,
+.carousel-item iframe,
+.carousel-container,
+.carousel-item {
     text-align: center;
-    /* Centrar horizontalmente */
     line-height: 20px;
-    /* Alinear verticalmente al centro (ajusta el valor según tu diseño) */
     margin: 0;
-    /* Asegurar que no haya márgenes internos */
     display: flex;
     justify-content: center;
-    /* Centrar horizontalmente con Flexbox */
     align-items: center;
-    /* Centrar verticalmente con Flexbox */
 }
-
-
-
 
 @media screen and (max-width: 2048px) {
-
-    /* Pantallas grandes */
     body {
         background: #d3c2b3;
-        /* Fondo crema */
     }
 }
 
-
 @media screen and (max-width: 1050px) {
-
-    /* Pantallas medianas */
     body {
         background: #d365c4;
-        /* Fondo crema */
     }
-
-    /* Reducir el tamaño de fuente en pantallas medianas */
 
     .contenido-menu,
     .Recuadro-Leyenda,
+    .container,
     .contenido-favorito,
     .rojo,
     .azul,
-    .codigo,
     .verde,
+    .codigo,
     .amarillo,
     .naranja,
     .morado,
@@ -455,25 +428,24 @@ h4 {
     .celeste,
     .beige,
     .rosado h5,
-    .contenedor .pie {
+    .contenedor .pie,
+    .carousel-item img,
+    .carousel-item iframe,
+    .carousel-container,
+    .carousel-item {
         font-size: 0.5rem;
-        /* Tamaño de fuente más pequeño */
     }
 }
 
 @media screen and (max-width: 576px) {
-
-    /* Pantallas pequeñas */
     body {
         background: #b9d14d;
-        /* Fondo crema */
     }
-
-    /* Reducir el tamaño de fuente en pantallas pequeñas */
 
     .contenido-menu,
     .Recuadro-Leyenda,
     .contenido-favorito,
+    .container,
     .rojo,
     .azul,
     .verde,
@@ -509,85 +481,56 @@ h4 {
     .celeste,
     .beige,
     .rosado h5,
-    .contenedor .pie {
+    .contenedor .pie,
+    .carousel-item img,
+    .carousel-item iframe,
+    .carousel-container,
+    .carousel-item
+     {
         font-size: 0.4rem;
-        /* Tamaño de fuente más pequeño */
     }
 }
 
 
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px; /* Cambia este valor al ancho deseado */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-}
-.formulario {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 10px;
-    max-width: 1200px; /* Cambia este valor al ancho deseado */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-}
 
-.plataforma {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-    max-width: 1200px; /* Cambia este valor al ancho deseado */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-}
-
-.form-group {
-    margin-bottom: 10px;
-}
-
-label {
-    display: block;
-}
-
-select, input {
+/* Estilos para el carrusel */
+.carousel-container {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    max-width: 100%;
+    overflow: hidden;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.carousel-item {
+    width: 100%;
+    height: auto;
 }
 
-li {
-    font-weight: bold;
-    margin-bottom: 5px;
+.carousel-item iframe {
+    width: 100%;
+    height: auto;
 }
 
-.price {
-    color: red;
-    font-family: 'Arial', sans-serif;
+
+/* Estilos para el carrusel */
+.carousel-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
-button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.carousel-item {
+    width: 100%;
+    height: auto;
 }
 
-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+
+
+
+
