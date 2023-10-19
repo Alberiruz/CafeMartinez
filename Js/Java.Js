@@ -84,125 +84,6 @@ contenedor.addEventListener('click', () => {
     }
 }
 
-    // Función para autocompletar los campos del formulario
-    function autocompletar(codigo, nombre) {
-    const formularioArticulo = document.getElementById('ArticuloForm');
-    const formularioCodArt = document.getElementById('CodArtForm');
-
-    // Actualiza los campos del formulario con los valores
-    formularioArticulo.value = nombre;
-    formularioCodArt.value = codigo;
-}
-
-
-
-
-    const {google} = require('googleapis');
-
-    // Carga tus credenciales desde el archivo JSON de credenciales
-    const credentials = require('./tu-archivo-de-credenciales.json');
-
-    // Configura la autenticación
-    const auth = new google.auth.JWT(
-    credentials.client_email,
-    null,
-    credentials.private_key,
-    ['https://www.googleapis.com/auth/spreadsheets']
-    );
-
-    // ID de tu hoja de cálculo de Google Sheets
-    const spreadsheetId = 'ID_DE_TU_HOJA_DE_CÁLCULO';
-
-    // Función para agregar datos a la hoja de cálculo
-    function addToGoogleSheet(data) {
-  const sheets = google.sheets('v4');
-
-    sheets.spreadsheets.values.append({
-        auth,
-        spreadsheetId,
-        range: 'NombreDeTuRango', // Por ejemplo, 'A1'
-    valueInputOption: 'RAW',
-    insertDataOption: 'INSERT_ROWS',
-    resource: {
-        values: [data],
-    },
-  }, (err) => {
-    if (err) {
-        console.error(`Error al agregar datos a Google Sheets: ${err}`);
-    } else {
-        console.log('Datos agregados a Google Sheets con éxito.');
-    }
-  });
-}
-
-
-
-
-    // Llama a esta función para agregar datos a la hoja de cálculo
-    addToGoogleSheet(['Dato1', 'Dato2', 'Dato3']); // Reemplaza con tus datos
-
-
-
-    document.getElementById('export-button').addEventListener('click', function () {
-        const cartItems = document.getElementById('cart-items');
-    
-        if (cartItems.children.length === 0) {
-            alert('El carrito de compras está vacío. Agrega elementos antes de exportar a Excel.');
-            return;
-        }
-    
-        const data = [];
-        // Encabezados de la tabla
-        data.push(['Lista', 'Cod Art', 'Articulo', 'Precio', 'Local']);
-    
-        // Obtener datos de los elementos del carrito
-        const cartRows = cartItems.querySelectorAll('li');
-        cartRows.forEach(function (cartRow) {
-            const itemData = cartRow.textContent.split(', ');
-            data.push(itemData);
-        });
-    
-        // Crear una hoja de cálculo en formato de libro de trabajo
-        const workbook = XLSX.utils.book_new();
-        const worksheet = XLSX.utils.aoa_to_sheet(data);
-        XLSX.utils.book_append_sheet(workbook, worksheet, 'Carrito');
-    
-        // Crear un archivo Excel y descargarlo
-        XLSX.writeFile(workbook, 'carrito_de_compras.xlsx');
-    });
-    document.getElementById('export-button').addEventListener('click', function () {
-        const cartItems = document.getElementById('cart-items');
-    
-        if (cartItems.children.length === 0) {
-            alert('El carrito de compras está vacío. Agrega elementos antes de exportar a Excel.');
-            return;
-        }
-    
-        const data = [];
-        // Encabezados de la tabla
-        data.push(['Lista', 'Cod Art', 'Articulo', 'Precio', 'Local']);
-    
-        // Obtener datos de los elementos del carrito
-        const cartRows = cartItems.querySelectorAll('li');
-        cartRows.forEach(function (cartRow) {
-            const itemData = cartRow.textContent.split(', ');
-            data.push(itemData);
-        });
-    
-        // Crear una hoja de cálculo en formato de libro de trabajo
-        const workbook = XLSX.utils.book_new();
-        const worksheet = XLSX.utils.aoa_to_sheet(data);
-        XLSX.utils.book_append_sheet(workbook, worksheet, 'Carrito');
-    
-        // Crear un archivo Excel y descargarlo
-        XLSX.writeFile(workbook, 'carrito_de_compras.xlsx');
-    });
-
-
-
-    
-
-
 
 
 // Obtén los elementos del carrusel
@@ -300,4 +181,37 @@ function addToCart() {
         alert('Por favor, complete todos los campos antes de agregar al carrito.');
     }
 }
+
+
+
+
+
+
+// Menu desplegable quieto
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const menuButton = document.getElementById("menuButton");
+    const dropdownContent = document.querySelector(".dropdown-content");
+    let isOpen = false; // Variable para rastrear el estado del menú
+
+    menuButton.addEventListener("mouseenter", function(e) {
+        if (!isOpen) {
+            dropdownContent.style.display = "block";
+            dropdownContent.style.opacity = 1;
+            dropdownContent.style.pointerEvents = "auto";
+            isOpen = true; // Abre el menú en la primera interacción
+        } else {
+            dropdownContent.style.display = "none";
+            dropdownContent.style.opacity = 0;
+            dropdownContent.style.pointerEvents = "none";
+            isOpen = false; // Cierra el menú en la segunda interacción
+        }
+    });
+});
+
+
+// Carrusel tiempo y saca los puntitos
+
+
 

@@ -61,27 +61,6 @@
     </div>
 </nav>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const menuButton = document.getElementById("menuButton");
-        const dropdownContent = document.querySelector(".dropdown-content");
-        let isOpen = false; // Variable para rastrear el estado del menú
-
-        menuButton.addEventListener("mouseenter", function(e) {
-            if (!isOpen) {
-                dropdownContent.style.display = "block";
-                dropdownContent.style.opacity = 1;
-                dropdownContent.style.pointerEvents = "auto";
-                isOpen = true; // Abre el menú en la primera interacción
-            } else {
-                dropdownContent.style.display = "none";
-                dropdownContent.style.opacity = 0;
-                dropdownContent.style.pointerEvents = "none";
-                isOpen = false; // Cierra el menú en la segunda interacción
-            }
-        });
-    });
-</script>
 </header>
 
 <body>
@@ -485,12 +464,6 @@
 
 
 <!--Autenticacion-->
-
-<button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
-<button id="signout_button" onclick="handleSignoutClick()">Sign Out</button>
-<script async defer src="https://apis.google.com/js/api.js" id="load"></script>
-<script async defer src="https://accounts.google.com/gsi/client" id="gis"></script>
-<script async defer src="Js/auth.js"></script>
 
 </body>
 
