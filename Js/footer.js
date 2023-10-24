@@ -1,6 +1,7 @@
 //creo una variable ALT + 96
 let miFooter=`
 
+
 <div class="vtex-store-footer-2-x-footerLayout">
 <div>
     <section>
@@ -19,9 +20,14 @@ let miFooter=`
                                                 loading="lazy" crossorigin="anonymous"
                                                 data-src="https://cafemartinez.vtexassets.com/arquivos/logo-blanco.png"
                                                 src="https://cafemartinez.vtexassets.com/arquivos/logo-blanco.png">
-                                        </div>
+                                        
+                                                
+                                                </div>
+                                        
                                     </div>
+                                    
                                 </div>
+                                
 
                                 <!-- LEGALES -->
 
@@ -154,102 +160,7 @@ let miFooter=`
                                 </div>
                                 <!-- FIN Clientes -->
 
-                                <!-- SERVICIOS -->
-                                <div style="width: 100%;">
-                                    <div
-                                        class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--menu-col-footer  ml0 mr0 pl0 pr0      flex flex-column h-100 w-100">
-                                        <div style="height: 100%;">
-                                            <div>
-                                                <div
-                                                    class="vtex-rich-text-0-x-wrapper vtex-rich-text-0-x-wrapper--footer-title">
-                                                    <p
-                                                        class="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--footer-title">
-                                                        Servicios
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
-                                            style="height: 100%;">
-                                            <nav class="vtex-menu-2-x-menuContainerNav">
-                                                <ul
-                                                    class="vtex-menu-2-x-menuContainer list flex pl0 mv0 flex-column">
-                                                    <li>
-                                                        <div>
-                                                            <span
-                                                                class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                <div
-                                                                    class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                    0810-345-CAFE(2233)
-                                                                </div>
-                                                            </span>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div
-                                                            class="vtex-menu-2-x-styledLinkContainer vtex-menu-2-x-styledLinkContainer--footer-menu-item mh6 pv2">
-                                                            <a href="/form-contacto" id="menu-item-mi-compra"
-                                                                blockclass="footer-menu-item" title="contacto"
-                                                                class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                <div
-                                                                    class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                    Contáctanos
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div
-                                                            class="vtex-menu-2-x-styledLinkContainer vtex-menu-2-x-styledLinkContainer--footer-menu-item mh6 pv2">
-                                                            <a href="/tiendas" id="menu-item-mi-compra"
-                                                                blockclass="footer-menu-item" title="sucursales"
-                                                                class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                <div
-                                                                    class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                    Nuestras Sucursales
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div>
-                                                            <a target="_blank"
-                                                                href="https://www.andreani.com/#!/personas"
-                                                                id="menu-item-mi-compra"
-                                                                blockclass="footer-menu-item" title="club"
-                                                                rel="noopener"
-                                                                class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                <div
-                                                                    class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                    Seguimiento de tu envío Andreani
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div>
-                                                            <a target="_blank"
-                                                                href="https://chazki.com/argentina"
-                                                                id="menu-item-mi-compra"
-                                                                blockclass="footer-menu-item" title="club"
-                                                                rel="noopener">
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div>
-                                                            <a href="/compra-recurrente"
-                                                                id="menu-item-mi-compra"
-                                                                blockclass="footer-menu-item" title="club">
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FIN servicios -->
+                                
 
                                 <!-- MEDIOS DE PAGO -->
                                 <div style="width: 100%;">
@@ -260,28 +171,42 @@ let miFooter=`
                                                     class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
                                                     <p
                                                         class="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--payment-methods">
-                                                        Medios de Pago
+                                                        Ubicacion
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="height: 100%;"><img title="" sizes="" srcset="" alt=""
-                                                class="vtex-store-components-3-x-imageElement vtex-store-components-3-x-imageElement--payment-methods-img vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded"
-                                                loading="lazy" crossorigin="anonymous"
-                                                data-src="https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/images/payment-methods___e8d516c212e927df6590991ac075d523.png"
-                                                src="https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/images/payment-methods___e8d516c212e927df6590991ac075d523.png">
-                                        </div>
+                                        <iframe
+                                width="800"
+                                height="150"
+                                frameborder="0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7409209821058!2d-58.4633231!3d-34.5854215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb60a08a96c4f%3A0xa2296badcc431bce!2sStephenson%202890%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1698117984763!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                                allowfullscreen
+                                ></iframe>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
+                        
                     </ul>
+                                
+                    <!-- SERVICIOS -->
+                                <div style="width: 100%;">
+                                
+                                <!-- FIN servicios -->
                 </nav>
+                
             </div>
+            
         </div>
+        
     </section>
+    
 </div>
+
 </div>
+
 <!-- Fin medios de pago -->
 
 
