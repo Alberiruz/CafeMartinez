@@ -5,444 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../colores.css">
-    <link rel="stylesheet" href="../estilos.css">
-    <link rel="stylesheet" href="../Header.css">
-    <link rel="stylesheet" href="../Prueba.css">
-    <link rel="stylesheet" type="text/css" href="../formulario.css">
+    <link rel="stylesheet" href="colores.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="Header.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <script src="../Java.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <title>Tarifas Precios</title>
 </head>
 
 
-    <div id="scrollToTopButton" class="scroll-button">
-        <div class="arrow-up"></div>
-    </div>
 
-    <header>
-        <div class="video">
-            <video autoplay muted loop width="400" height="300">
-                <source src="WhatsApp Video 2023-10-03 at 23.17.22.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de videos.
-            </video>
-        </div>
-   
-
-   <!-- Menú tradicional para pantallas más grandes (mayores o iguales a 1200px) -->
-<nav class="menu-large">
-    <ul>
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="Tradicional/Cafeteria.html">TRADICIONAL</a></li>
-        <li><a href="SMART.html">SMART</a></li>
-        <li><a href="A La Barra.html">ALB</a></li>
-        <li><a href="peya.html">PEYA</a></li>
-    </ul>
-</nav>
-
-
-
-<nav class="menu-small">
-    <div class="dropdown">
-        <button class="dropdown-btn" id="menuButton">MENÚ</button>
-        <div class="dropdown-content">
-            <a href="index.html">INICIO</a>
-            <a href="Tradicional/Cafeteria.html">TRADICIONAL</a>
-            <a href="SMART.html">SMART</a>
-            <a href="A La Barra.html">ALB</a>
-            <a href="peya.html">PEYA</a>
-        </div>
-    </div>
-</nav>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const menuButton = document.getElementById("menuButton");
-        const dropdownContent = document.querySelector(".dropdown-content");
-        let isOpen = false; // Variable para rastrear el estado del menú
-
-        menuButton.addEventListener("mouseenter", function(e) {
-            if (!isOpen) {
-                dropdownContent.style.display = "block";
-                dropdownContent.style.opacity = 1;
-                dropdownContent.style.pointerEvents = "auto";
-                isOpen = true; // Abre el menú en la primera interacción
-            } else {
-                dropdownContent.style.display = "none";
-                dropdownContent.style.opacity = 0;
-                dropdownContent.style.pointerEvents = "none";
-                isOpen = false; // Cierra el menú en la segunda interacción
-            }
-        });
-    });
-</script>
-
-
+<header>
 </header>
 
-    <!-- Espacio pagina -->
 
-    </div>
+<style>
+    @keyframes parpadeo {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
 
-
-
-    <div class="contenedor">
-        <main class="contenido">
-            <div class="fila">
-                <div class="contenido-favorito">
-                    <h5>Opciones</h5>
-                </div>
-                <div class="rojo">
-                    <a href="../Tradicional/Cafeteria.html">
-                        <h5>Cafeteria</h5>
-                    </a>
-                </div>
-                <div class="azul">
-                    <a href="../Tradicional/Sugerencias.html"></a>
-                    <h5>Sugerencias</h5>
-                </div>
-                <div class="amarillo">
-                    <a href="../Tradicional/MediaTostFac.html"></a>
-                    <h6>Medialunas tostadas Facturas</h6>
-                </div>
-                <div class="rosado">
-                    <a href="../Tradicional/AdiDif.html"></a>
-                    <h6>Adicionales & Diferencias</h6>
-                </div>
-                <div class="turquesa">
-                    <a href="../Tradicional/AlCena.html"></a>
-                    <h6>Almuerzo Cenas</h6>
-                </div>
-                <div class="negro">
-                    <a href="../Tradicional/Sandwiches.html"></a>
-                    <h5>Sandwiches</h5>
-                </div>
-                <div class="rojo ">
-                    <a href="../Tradicional/Gaseosas.html"></a>
-                    <h6>Gaseosas & Aguas Saborizadas</h6>
-                </div>
-                <div class="rosado">
-                    <a href="../Tradicional/StaccKosher.html"></a>
-                    <h6>Stacc Kosher</h6>
-                </div>
-                <div class="cyanclaro">
-                    <a href="../Tradicional/MuebleEx.html"></a>
-                    <h6>Mueble Express</h6>
-                </div>
-                <div class="blanco">
-                    <a href="../Tradicional/Mercha.html"></a>
-                    <h5>Merchandising</h5>
-                </div>
-                <div class="blanco">
-                    <a href="../Tradicional/Molienda.html"></a>
-                    <h5>Molienda</h5>
-                </div>
-                <div class="verde">
-                    <a href="../Tradicional/Torta.html"></a>
-                    <h5>Tortas</h5>
-                </div>
-                <div class="verdeclaro">
-                    <a href="../Tradicional/Delicia.html"></a>
-                    <h5>Delicias</h5>
-                </div>
-                <div class="negro">
-                    <a href="../Tradicional/JugosLiGra.html"></a>
-                    <h6>Jugos Licuados Granizados</h6>
-                </div>
-                <div class="negro">
-                    <a href="../Tradicional/Almacen.html"></a>
-                    <h5>Almacen</h5>
-                </div>
-                <div class="marron">
-                    <a href="../Tradicional/BebAlc.html"></a>
-                    <h6>Bebidas con Alcohol</h6>
-                </div>
-            </div>
-
-            <br>
-            <hr>
-            <br>
-            <div class="fila">
-
-
-                <div class="amarillo" onclick="autocompletar('CA-1212', 'Cafe Take Away MDQ')">
-                    <div class="Codigo">
-                        <h6>CA-1212</h6>
-                    </div>
-                    <h5>Cafe Take Away MDQ</h5>
-                </div>
-
-                <div class="celeste" onclick="autocompletar('CA-11', 'Recarga Vaso Reutilizable')">
-                    <div class="Codigo">
-                        <h6>CA-11</h6>
-                    </div>
-                    <h5>Recarga Vaso Reutilizable</h5>
-                </div>
-
-                <div class="amarillo" onclick="autocompletar('CA-12', 'Cafe Take Away Mediano')">
-                    <div class="Codigo">
-                        <h6>CA-12</h6>
-                    </div>
-                    <h5>Cafe Take Away Mediano</h5>
-                </div>
-
-                <div class="turquesa" onclick="autocompletar('CA-13', 'Cafe Take Away MDQ Grande')">
-                    <div class="Codigo">
-                        <h6>CA-13</h6>
-                    </div>
-                    <h5>Cafe Take Away MDQ Grande</h5>
-                </div>
-
-                <div class="verde" onclick="autocompletar(h6, 'Cafe Con Leche Salon')">
-                    <div class="Codigo">
-                        <h6 name="cod">CA-hoacoco</h6>
-                    </div>
-                    <h5>Cafe Con Leche Salon</h5>
-                </div>
-
-                <div class="verdeclaro" onclick="autocompletar('CA-1111', 'Pocillo Imperdible')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Pocillo Imperdible</h5>
-                </div>
-
-                <div class="marron" onclick="autocompletar('CA-1111', 'Pocillo')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Pocillo</h5>
-                </div>
-
-                <div class="rojo" onclick="autocompletar('CA-1111', 'Americano')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Americano</h5>
-                </div>
-
-                <div class="rojo" onclick="autocompletar('CA-1111', 'Americano Imperdible')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Americano Imperdible</h5>
-                </div>
-
-                <div class="rosado" onclick="autocompletar('CA-1111', 'Cafe Con Leche Imperdible')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Cafe Con Leche Imperdible</h5>
-                </div>
-
-                <div class="marron" onclick="autocompletar('CA-1111', 'Doble')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Doble</h5>
-                </div>
-
-                <div class="rosadoclaro" onclick="autocompletar('CA-1111', 'Doble Imperdible')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Doble Imperdible</h5>
-                </div>
-
-                <div class="morado" onclick="autocompletar('CA-1111', 'Latte Mug')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Latte Mug</h5>
-                </div>
-
-                <div class="turquesa" onclick="autocompletar('CA-1111', 'Latte Especial Caliente')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Latte Especial Caliente</h5>
-                </div>
-
-                <div class="turquesa" onclick="autocompletar('CA-1111', 'Latte Especial Frio')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Latte Especial Frio</h5>
-                </div>
-
-                <div class="verde" onclick="autocompletar('CA-1111', 'Cafe Irlandes')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Cafe Irlandes</h5>
-                </div>
-
-                <div class="rojo" onclick="autocompletar('CA-1111', 'Capuchino')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Capuchino</h5>
-                </div>
-
-                <div class="rojo" onclick="autocompletar('CA-1111', 'Capuchino Caliente')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Capuchino Caliente</h5>
-                </div>
-
-                <div class="azul" onclick="autocompletar('CA-1111', 'Capuchino Frio')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Capuchino Frio</h5>
-                </div>
-
-                <div class="verdeclaro" onclick="autocompletar('CA-1111', 'Capuchino Italiano')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Capuchino Italiano</h5>
-                </div>
-
-                <div class="marron" onclick="autocompletar('CA-1111', 'Chocolatada')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Chocolatada</h5>
-                </div>
-
-                <div class="turquesa" onclick="autocompletar('CA-1111', 'Cold Brew')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Cold Brew</h5>
-                </div>
-
-                <div class="verdeclaro" onclick="autocompletar('CA-1111', 'Cold Brew Clasico')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Cold Brew Clasico</h5>
-                </div>
-
-                <div class="naranja" onclick="autocompletar('CA-1111', 'Cold Brew Latte Caramel')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Cold Brew Latte Caramel</h5>
-                </div>
-
-                <div class="marronclaro" onclick="autocompletar('CA-1111', 'Cold Brew Latte Vainilla')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Cold Brew Latte Vainilla</h5>
-                </div>
-
-                <div class="azul" onclick="autocompletar('CA-1111', 'Jarra Prensa Francesa')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Jarra Prensa Francesa</h5>
-                </div>
-
-                <div class="beige" onclick="autocompletar('CA-1111', 'Refill Pocillo')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Refill Pocillo</h5>
-                </div>
-
-                <div class="rosadoclaro" onclick="autocompletar('CA-1111', 'Submarino')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Submarino</h5>
-                </div>
-
-                <div class="naranja" onclick="autocompletar('CA-1111', 'Te')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Te</h5>
-                </div>
-
-                <div class="marronclaro" onclick="autocompletar('CA-1111', 'Te Con Leche')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Te Con Leche</h5>
-                </div>
-
-                <div class="amarillo" onclick="autocompletar('CA-1111', 'Te Con Limon')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Te Con Limon</h5>
-                </div>
-
-                <div class="celeste" onclick="autocompletar('CA-1111', 'Vaso De Leche')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Vaso De Leche</h5>
-                </div>
-
-                <div class="amarillo" onclick="autocompletar('CA-1111', 'Cafe Laboratorio')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Cafe Laboratorio</h5>
-                </div>
-
-                <div class="amarillo" onclick="autocompletar('CA-1111', 'Chocolatada Nut')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Chocolatada Nut</h5>
-
-                </div>
-
-                <div class="amarillo" onclick="autocompletar('CA-1111', 'Chocolatada Nut')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Chocolatada Nut</h5>
-
-                </div>
-
-
-                <div class="oro" onclick="autocompletar('CA-1111', 'Golden Latte')">
-                    <div class="Codigo">
-                        <h6>CA-1111</h6>
-                    </div>
-                    <h5>Golden Latte</h5>
-                </div>
-
-
-
-                <div class="turquesa" onclick="autocompletar('CA-1112', 'Latte Coffee')">
-                    <div class="Codigo">
-                        <h6>CA-1112</h6>
-                    </div>
-                    <h5>Latte Coffee</h5>
-                </div>
-
-
-
-
-
-                <div class="rosado" onclick="autocompletar('CA-1113', 'Pocillo Chacabuco')">
-                    <div class="Codigo">
-                        <h6>CA-1113</h6>
-                    </div>
-                    <h5>Pocillo Chacabuco</h5>
-                </div>
-            </div>
-    </div>
-
-
+    .centrado {
+        text-align: center;
+        animation: parpadeo 2s infinite;
+    }
+</style>
+</head>
+<body>
+<div class="centrado">
+    <h1>PÁGINA EN CONSTRUCCIÓN</h1>
+</div>
 
 
     <!-- Funcion -->
@@ -621,313 +217,62 @@
 
 <!-- FOOTER -->
 
+<footer></footer>
+
+
+<link rel="stylesheet"
+    href="https://cafemartinez.vtexassets.com/_v/public/assets/v1/bundle/css/asset.min.css?v=3&amp;files=theme,cafemartinez.store@3.0.41$style.common,cafemartinez.store@3.0.41$style.small,cafemartinez.store@3.0.41$style.notsmall,cafemartinez.store@3.0.41$style.large,cafemartinez.store@3.0.41$style.xlarge&amp;files=fonts,ebda5b7f33d97a654d0dee0aac558a02d0c8b879&amp;files=npm,animate.css@3.7.0/animate.min.css&amp;files=react~vtex.render-runtime@8.134.1,common&amp;files=react~vtex.store-components@3.169.0,Container,4,SearchBar,Logo&amp;files=react~vtex.styleguide@9.146.9,0,1,Spinner&amp;files=react~vtex.admin-pages@4.51.2,HighlightOverlay&amp;files=react~vtex.modal-layout@0.14.1,0&amp;files=react~vtex.flex-layout@0.21.3,0&amp;files=react~vtex.rich-text@0.16.0,index&amp;files=react~cafemartinez.store@3.0.41,GlobalCss,NotificationBar,FormNewsletterPopUp&amp;files=react~vtex.login@2.57.0,1&amp;files=react~vtex.minicart@2.67.1,Minicart&amp;files=react~vtex.search@2.16.5,Autocomplete&amp;files=overrides,vtex.product-list@0.37.1$overrides,vtex.minicart@2.67.1$overrides,cafemartinez.store@3.0.41$overrides,cafemartinez.store@3.0.41$fonts&amp;workspace=master"
+    crossorigin="" class="vtex_io_uncritical_css" id="uncritical_style_0">
+
+
+<script>
+    window.addEventListener("scroll", function () {
+        var botonSubir = document.querySelector(".boton-subir");
+
+        // Si el usuario ha desplazado más de 300 píxeles hacia abajo, muestra el botón
+        if (window.scrollY > 300) {
+            botonSubir.style.display = "block";
+        } else {
+            botonSubir.style.display = "none";
+        }
+    });
+</script>
 <footer>
 
-    <div class="vtex-store-footer-2-x-footerLayout">
-        <div>
-            <section>
-                <div>
-                    <div style="width: 100%;">
-                        <nav>
-                            <ul>
-                                <div>
-                                    <div
-                                        class="flex-none flex-ns mt0 mb0 pt0 pb0    justify-start vtex-flex-layout-0-x-flexRowContent vtex-flex-layout-0-x-flexRowContent--menu-row-footer2 items-stretch w-100">
-                                        <div style="width: 100%;">
-                                            <div>
-                                                <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer vtex-flex-layout-0-x-flexColChild--col-social pb0"
-                                                    style="height: 100%;"><img title="" sizes="" srcset="" alt=""
-                                                        class="vtex-store-components-3-x-imageElement vtex-store-components-3-x-imageElement--logo-footer-img vtex-render-runtime-8-x-lazyload lazyloaded"
-                                                        loading="lazy" crossorigin="anonymous"
-                                                        data-src="https://cafemartinez.vtexassets.com/arquivos/logo-blanco.png"
-                                                        src="https://cafemartinez.vtexassets.com/arquivos/logo-blanco.png">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- LEGALES -->
-
-                                        <div style="width: 100%;">
-                                            <div
-                                                class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--menu-col-footer  ml0 mr0 pl0 pr0      flex flex-column h-100 w-100">
-                                                <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
-                                                    style="height: 100%;">
-                                                    <div>
-                                                        <div
-                                                            class="vtex-rich-text-0-x-wrapper vtex-rich-text-0-x-wrapper--footer-title">
-                                                            <p
-                                                                class="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--footer-title">
-                                                                Legal
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div style="height: 100%;">
-                                                    <nav class="vtex-menu-2-x-menuContainerNav">
-                                                        <ul
-                                                            class="vtex-menu-2-x-menuContainer list flex pl0 mv0 flex-column">
-                                                            <li>
-                                                                <div>
-                                                                    <a href="/terminos-condiciones/"
-                                                                        id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item"
-                                                                        title="Términos y Condiciones"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Términos y Condiciones
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div>
-                                                                    <a href="/politica-privacidad/"
-                                                                        id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item"
-                                                                        title="privacidad de datos"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div>
-                                                                    <a href="/como-comprar-cf/" id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item"
-                                                                        title="Preguntas frecuentes"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Preguntas Frecuentes
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </nav>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- FIN LEGALES -->
-
-                                        <!-- CLIENTES -->
-
-                                        <div style="width: 100%;">
-                                            <div>
-                                                <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
-                                                    style="height: 100%;">
-                                                    <div>
-                                                        <div
-                                                            class="vtex-rich-text-0-x-wrapper vtex-rich-text-0-x-wrapper--footer-title">
-                                                            <p
-                                                                class="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--footer-title">
-                                                                Cliente
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
-                                                    style="height: 100%;">
-                                                    <nav class="vtex-menu-2-x-menuContainerNav">
-                                                        <ul
-                                                            class="vtex-menu-2-x-menuContainer list flex pl0 mv0 flex-column">
-                                                            <li>
-                                                                <div>
-                                                                    <a href="/login" id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item" title="Mi Cuenta"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Mi Cuenta
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div>
-                                                                    <a href="/login" id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item"
-                                                                        title="Acceso-cliente"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Acceso Clientes
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div>
-                                                                    <a href="/login" id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item"
-                                                                        title="Registrarse"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Registrarse
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </nav>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- FIN Clientes -->
-
-                                        <!-- SERVICIOS -->
-                                        <div style="width: 100%;">
-                                            <div
-                                                class="vtex-flex-layout-0-x-flexCol vtex-flex-layout-0-x-flexCol--menu-col-footer  ml0 mr0 pl0 pr0      flex flex-column h-100 w-100">
-                                                <div style="height: 100%;">
-                                                    <div>
-                                                        <div
-                                                            class="vtex-rich-text-0-x-wrapper vtex-rich-text-0-x-wrapper--footer-title">
-                                                            <p
-                                                                class="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--footer-title">
-                                                                Servicios
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="vtex-flex-layout-0-x-flexColChild vtex-flex-layout-0-x-flexColChild--menu-col-footer pb0"
-                                                    style="height: 100%;">
-                                                    <nav class="vtex-menu-2-x-menuContainerNav">
-                                                        <ul
-                                                            class="vtex-menu-2-x-menuContainer list flex pl0 mv0 flex-column">
-                                                            <li>
-                                                                <div>
-                                                                    <span
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            0810-345-CAFE(2233)
-                                                                        </div>
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div
-                                                                    class="vtex-menu-2-x-styledLinkContainer vtex-menu-2-x-styledLinkContainer--footer-menu-item mh6 pv2">
-                                                                    <a href="/form-contacto" id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item" title="contacto"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Contáctanos
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div
-                                                                    class="vtex-menu-2-x-styledLinkContainer vtex-menu-2-x-styledLinkContainer--footer-menu-item mh6 pv2">
-                                                                    <a href="/tiendas" id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item" title="sucursales"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Nuestras Sucursales
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div>
-                                                                    <a target="_blank"
-                                                                        href="https://www.andreani.com/#!/personas"
-                                                                        id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item" title="club"
-                                                                        rel="noopener"
-                                                                        class="vtex-menu-2-x-styledLink vtex-menu-2-x-styledLink--footer-menu-item no-underline pointer t-small c-on-base pointer">
-                                                                        <div
-                                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                                            Seguimiento de tu envío Andreani
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div>
-                                                                    <a target="_blank"
-                                                                        href="https://chazki.com/argentina"
-                                                                        id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item" title="club"
-                                                                        rel="noopener">
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div>
-                                                                    <a href="/compra-recurrente"
-                                                                        id="menu-item-mi-compra"
-                                                                        blockclass="footer-menu-item" title="club">
-                                                                    </a>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </nav>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- FIN servicios -->
-
-                                        <!-- MEDIOS DE PAGO -->
-                                        <div style="width: 100%;">
-                                            <div>
-                                                <div style="height: 100%;">
-                                                    <div>
-                                                        <div
-                                                            class="vtex-menu-2-x-styledLinkContent vtex-menu-2-x-styledLinkContent--footer-menu-item flex justify-between nowrap">
-                                                            <p
-                                                                class="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--payment-methods">
-                                                                Medios de Pago
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div style="height: 100%;"><img title="" sizes="" srcset="" alt=""
-                                                        class="vtex-store-components-3-x-imageElement vtex-store-components-3-x-imageElement--payment-methods-img vtex-render-runtime-8-x-lazyload ls-is-cached lazyloaded"
-                                                        loading="lazy" crossorigin="anonymous"
-                                                        data-src="https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/images/payment-methods___e8d516c212e927df6590991ac075d523.png"
-                                                        src="https://cafemartinez.vtexassets.com/assets/vtex/assets-builder/cafemartinez.store/3.0.41/images/payment-methods___e8d516c212e927df6590991ac075d523.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- Fin medios de pago -->
-
-
-
-    <link rel="stylesheet"
-        href="https://cafemartinez.vtexassets.com/_v/public/assets/v1/bundle/css/asset.min.css?v=3&amp;files=theme,cafemartinez.store@3.0.41$style.common,cafemartinez.store@3.0.41$style.small,cafemartinez.store@3.0.41$style.notsmall,cafemartinez.store@3.0.41$style.large,cafemartinez.store@3.0.41$style.xlarge&amp;files=fonts,ebda5b7f33d97a654d0dee0aac558a02d0c8b879&amp;files=npm,animate.css@3.7.0/animate.min.css&amp;files=react~vtex.render-runtime@8.134.1,common&amp;files=react~vtex.store-components@3.169.0,Container,4,SearchBar,Logo&amp;files=react~vtex.styleguide@9.146.9,0,1,Spinner&amp;files=react~vtex.admin-pages@4.51.2,HighlightOverlay&amp;files=react~vtex.modal-layout@0.14.1,0&amp;files=react~vtex.flex-layout@0.21.3,0&amp;files=react~vtex.rich-text@0.16.0,index&amp;files=react~cafemartinez.store@3.0.41,GlobalCss,NotificationBar,FormNewsletterPopUp&amp;files=react~vtex.login@2.57.0,1&amp;files=react~vtex.minicart@2.67.1,Minicart&amp;files=react~vtex.search@2.16.5,Autocomplete&amp;files=overrides,vtex.product-list@0.37.1$overrides,vtex.minicart@2.67.1$overrides,cafemartinez.store@3.0.41$overrides,cafemartinez.store@3.0.41$fonts&amp;workspace=master"
-        crossorigin="" class="vtex_io_uncritical_css" id="uncritical_style_0">
-
-
-    <script>
-        window.addEventListener("scroll", function () {
-            var botonSubir = document.querySelector(".boton-subir");
-
-            // Si el usuario ha desplazado más de 300 píxeles hacia abajo, muestra el botón
-            if (window.scrollY > 300) {
-                botonSubir.style.display = "block";
-            } else {
-                botonSubir.style.display = "none";
-            }
-        });
-    </script>
 </footer>
 
-<!-- FIN FOOTER -->
+
+<!-- Vinculos -->
+<script src="./Js/header.js"></script>
+<script src="./Js/footer.js"></script>
+<script src="../Js/formulario.js"></script>
+<script src="../Js/head.js"></script>
+<script src="../Js/menu.js"></script>
+<script src="./Js/Java.Js"></script>
+<script src="./Js/auth.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const menuButton = document.getElementById("menuButton");
+    const dropdownContent = document.querySelector(".dropdown-content");
+    let isOpen = false; // Variable para rastrear el estado del menú
+
+    menuButton.addEventListener("mouseenter", function(e) {
+        if (!isOpen) {
+            dropdownContent.style.display = "block";
+            dropdownContent.style.opacity = 1;
+            dropdownContent.style.pointerEvents = "auto";
+            isOpen = true; // Abre el menú en la primera interacción
+        } else {
+            dropdownContent.style.display = "none";
+            dropdownContent.style.opacity = 0;
+            dropdownContent.style.pointerEvents = "none";
+            isOpen = false; // Cierra el menú en la segunda interacción
+        }
+    });
+});
+
+</script>
 
 </body>
 

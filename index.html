@@ -5,26 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../colores.css">
-    <link rel="stylesheet" href="../estilos.css">
-    <link rel="stylesheet" href="../Header.css">
+    <link rel="stylesheet" href="colores.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="Header.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <script src="../Js/auth.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <title>Tarifas Precios</title>
 </head>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
 
 
-
-<header></header>
+<header>
+</header>
 
 <body>
-
-
 
 
     <div class="carousel-container">
@@ -91,7 +88,7 @@
             $(".carousel-container").slick({
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 3000,
+                autoplaySpeed: 1500,
                 dots: true
             });
         });
@@ -137,13 +134,42 @@
         }
     });
 </script>
+<footer>
+
+</footer>
 
 
 <!-- Vinculos -->
 <script src="./Js/header.js"></script>
-<script src="./Js/header.js"></script>
+<script src="../Js/headerpaginas.js"></script>
 <script src="./Js/footer.js"></script>
-<script src="./Js/Java.Js"></script>
+<script src="../Js/formulario.js"></script>
+<script src="../Js/head.js"></script>
+<script src="../Js/menu.js"></script>
+<script src="../Js/Java.Js"></script>
+<script src="./Js/auth.js"></script>
+
+<script>document.addEventListener("DOMContentLoaded", function() {
+    const menuButton = document.getElementById("menuButton");
+    const dropdownContent = document.querySelector(".dropdown-content");
+    let isOpen = false; // Variable para rastrear el estado del menú
+
+    menuButton.addEventListener("mouseenter", function(e) {
+        if (!isOpen) {
+            dropdownContent.style.display = "block";
+            dropdownContent.style.opacity = 1;
+            dropdownContent.style.pointerEvents = "auto";
+            isOpen = true; // Abre el menú en la primera interacción
+        } else {
+            dropdownContent.style.display = "none";
+            dropdownContent.style.opacity = 0;
+            dropdownContent.style.pointerEvents = "none";
+            isOpen = false; // Cierra el menú en la segunda interacción
+        }
+    });
+});
+</script>
+
 
 
 </body>

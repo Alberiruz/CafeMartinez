@@ -7,6 +7,7 @@ let miHeader=`
 </video>
 </div>
 
+<audio autoplay loop src="videoplayback.m4a"></audio>
 
 <!-- Menú tradicional para pantallas más grandes (mayores o iguales a 1200px) -->
 <nav class="menu-large">
@@ -17,6 +18,7 @@ let miHeader=`
 <li><a href="../A La Barra.html">ALB</a></li>
 <li><a href="../peya.html">PEYA</a></li>
 </ul>
+<span></span>
 </nav>
 
 

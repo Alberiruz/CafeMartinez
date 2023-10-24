@@ -297,6 +297,12 @@ header {
   background-color: #444; /* Cambiar a un negro menos profundo al pasar el cursor */
 }
 
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color :white ;
+}
 /* Estilos para pantallas más pequeñas (responsive) */
 @media (max-width: 768px) {
   header {

@@ -9,17 +9,19 @@ let miHeader=`
 
 </div>
 
-<audio  loop src="videoplayback.m4a"></audio>
+<audio id="miAudio" autoplay loop src="videoplayback.m4a"></audio>
 
 <!-- Menú tradicional para pantallas más grandes (mayores o iguales a 1200px) -->
 <nav class="menu-large">
 <ul>
+
 <li><a href="index.html">INICIO</a></li>
 <li><a href="Tradicional/Cafeteria.html">TRADICIONAL</a></li>
 <li><a href="SMART.html">SMART</a></li>
 <li><a href="A La Barra.html">ALB</a></li>
 <li><a href="peya.html">PEYA</a></li>
 </ul>
+<span>   </span>
 </nav>
 
 
@@ -39,6 +41,9 @@ let miHeader=`
 
 `
 document.querySelector("header").innerHTML = miHeader
+
+var miAudio = document.getElementById('miAudio');
+miAudio.volume = 0.05; // Establece el volumen en 0.2 (20% del volumen máximo)
 
 
 
